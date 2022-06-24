@@ -88,11 +88,11 @@ return(
             <p>
               <strong>El sitio web</strong> se refiere a CVAFS, accesible desde {" "}
               <a
-                href="www.cvafs.com"
+                href="https://analieflorezscv.herokuapp.com/"
                 rel="external nofollow noopener"
                 target="_blank"
               >
-                www.cvafs.com
+                https://analieflorezscv.herokuapp.com/
               </a>
             </p>
           </li>
