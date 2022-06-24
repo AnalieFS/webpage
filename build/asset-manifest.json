@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81967684.css",
+    "main.js": "/static/js/main.eecb6709.js",
+    "static/js/787.98498dfe.chunk.js": "/static/js/787.98498dfe.chunk.js",
+    "static/media/AnaVerticalWeb.png": "/static/media/AnaVerticalWeb.146314062b93dc2eca76.png",
+    "static/media/SobreMi.png": "/static/media/SobreMi.995b718ed04ce2d7e586.png",
+    "static/media/LenguajesYHerramientas.png": "/static/media/LenguajesYHerramientas.7901b86e84a1937fdb94.png",
+    "static/media/OpenNClose.png": "/static/media/OpenNClose.4b127bd18b0ac8669692.png",
+    "static/media/Experiencia.png": "/static/media/Experiencia.32a9e1959a24f9af94a7.png",
+    "static/media/Competencias.png": "/static/media/Competencias.94b20f293290b361d0a1.png",
+    "static/media/FormacionAcademica.png": "/static/media/FormacionAcademica.503dfb2cfe0bb314a465.png",
+    "static/media/SheWorks.png": "/static/media/SheWorks.93de60f321828528f779.png",
+    "static/media/Politecnico.png": "/static/media/Politecnico.c58895deeafaba1902ce.png",
+    "index.html": "/index.html",
+    "main.81967684.css.map": "/static/css/main.81967684.css.map",
+    "main.eecb6709.js.map": "/static/js/main.eecb6709.js.map",
+    "787.98498dfe.chunk.js.map": "/static/js/787.98498dfe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81967684.css",
+    "static/js/main.eecb6709.js"
+  ]
+}

@@ -1,0 +1,269 @@
+.experienciaContainer{
+    background-image: url(../../img/ExperienciaBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    list-style-type: none;
+    align-items: center;
+    margin: auto 0px;    
+}
+
+#subtitleExperiencia{
+    float: right;
+    position:absolute;
+    text-align: left;
+    left: 40px;
+    bottom: 220px;
+}
+
+#subtitleExperiencia h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    text-shadow: 1px 1px 10px black;
+ 
+}
+
+#subtitleExperiencia h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-left: 50px;
+    text-shadow: 0px 0px 18px black;
+}
+
+
+#btnExperiencia{
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px 2px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    width: 115px;
+    font-size: 14px;
+    margin-left: 91px;
+    margin-top: 630px;
+    
+}
+
+#btnExperiencia:active, #btnExperiencia:focus, #btnExperiencia:hover{
+    width: 110px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    animation: colorBackgroundExperiencia 1s;
+    transition-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.buttonsExperiencia{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 115px;
+    margin-left: 91px;
+    margin-top: 260px;
+}
+
+.buttonsExperiencia button:active, .buttonsExperiencia button:focus, .buttonsExperiencia button:hover{
+   
+    animation: colorBackgroundExperiencia 1s;
+    transition-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.buttonsExperiencia button{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    width: 115px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 0px;
+    background-color: rgba(0, 0, 0, 0.329);
+    animation: buttonsAppear 1s;
+    transition-duration: 1s;
+}
+@keyframes buttonsAppear {
+    from{
+        color:transparent;
+        background-color: transparent;
+        border:none
+    }
+    to{
+        color:white;
+        background-color: rgba(0, 0, 0, 0.329);
+        border: 1px solid white;
+    }
+}
+@keyframes text {
+    from{
+        color:transparent
+    }
+    
+}
+@keyframes colorBackgroundExperiencia {
+    from{
+        background-color: transparent;
+    }
+    to{
+        background-color: rgba(152, 88, 255, 0.692);
+        color:rgb(255, 255, 255);
+        border:1px solid rgba(152, 88, 255, 0.692);
+    }
+}
+
+.experiencia h1{
+    display: flex;
+    position:absolute;
+    color:rgb(255, 255, 255);
+    margin: auto;
+    margin-left: 30%;
+    width: 100%;
+    height: 100vh;
+    top:100px;
+    font-size: 16px;
+    animation: text 1s;
+    transition-duration: 1s;
+}
+
+.experiencia h2{
+    display: flex;
+    position:absolute;
+    color:rgb(255, 202, 255);
+    margin: auto;
+    margin-left: 30%;
+    width: 100%;
+    height: 100vh;
+    top:130px;
+    font-size: 14px;
+    animation: text 1s;
+    transition-duration: 1s;
+}
+
+.experiencia p{
+    display: flex;
+    position:absolute;
+    color:rgb(216, 143, 216);
+    margin-left: 30%;
+    width: 40%;
+    height: 100vh;
+    top:140px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    animation: text 1s;
+    transition-duration: 1s;
+}
+
+.experiencia{
+    
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 1060px) {
+
+    .experiencia p{
+        display: flex;
+        position:absolute;
+        color:rgb(216, 143, 216);
+        margin-left: 91px;
+        width: 70%;
+        height: 100vh;
+        top:160px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+    .experiencia h1{
+        margin-left: 91px;
+        top:140px;
+
+    }
+    .experiencia h2{
+        margin-left: 91px;
+        top:110px;
+
+    }
+    .buttonsExperiencia{
+        z-index: 2;
+    }
+    #btnExperiencia{
+        z-index: 3;
+    }
+    #subtitleExperiencia h2{
+        text-align: left;
+        padding-bottom: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    #subtitleExperiencia{
+        float: left;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        left: 50px;
+        bottom: 165px;
+    }
+    
+    #subtitleExperiencia h1{
+        color: white;
+        text-align: left;
+        padding-left: 50px;
+    }
+    
+    #subtitleExperiencia h2{
+        width: 70%;
+        letter-spacing: 2px;
+        padding-left: 50px;
+        text-align: left;
+    }
+    .experiencia p{
+        display: flex;
+        position:absolute;
+        color:rgb(216, 143, 216);
+        margin-left: 91px;
+        width: 300px;
+        height: 100vh;
+        top:80px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+    .experiencia h1{
+        margin-left: 91px;
+        top:30px;
+
+    }
+    .experiencia h2{
+        margin-left: 91px;
+        top:55px;
+        width: 300px;
+        font-size: 12px;
+        text-align: left;
+    }
+    .buttonsExperiencia{
+        z-index: 2;
+    }
+    #btnExperiencia{
+        z-index: 3;
+    }
+    
+}
