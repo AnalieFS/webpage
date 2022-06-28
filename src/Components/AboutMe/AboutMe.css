@@ -4,15 +4,48 @@
 
 
 .AboutMeContainer{
-    background-image: url('../../img/SobreMiBackground.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../../img/SobreMiBackground.webp');
     background-repeat: no-repeat;
     background-size:cover;
-    display: flex;
-    margin: auto 0px;
-    width: 100%;
+    max-width: 100vw;
     height: 100vh;
-    align-items: center;
-    justify-content: space-evenly;
+}
+
+#AboutMe{
+    position:absolute;
+    bottom: 250px;
+    left:50px
+}
+
+#AboutMe h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    text-shadow: 0px 0px 5px black;
+}
+.btnAboutMe{
+    position: absolute;
+    bottom: 150px;
+    left: 50px
+}
+
+.btnAboutMe button{
+    bottom: 120px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 100;
+    width: 115px;
+    font-size: 14px;
+    margin-left: 50px;
 }
 
 .AboutMeContainer p{
@@ -36,50 +69,7 @@
 
 }
 
-#AboutMe{
-    position: absolute;
-    left: 50px;
-    bottom: 200px;
-}
-
-#AboutMe h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    color: white;
-    text-align: left;
-    padding-left: 50px;
-}
-
-#AboutMe h2{
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    margin-bottom: 30px;
-    padding-left: 50px;
-    text-shadow: 0px 0px 3px black;
-}
-
-#btnAboutMe{
-    position: absolute;
-    left: 50px;
-    bottom: 120px;
-    border: 1px solid white;
-    background-color: transparent;
-    color: white;
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 3px;
-    font-weight: 100;
-    width: 115px;
-    font-size: 14px;
-    margin-left: 50px;
-}
-
-#btnAboutMe:active, #btnAboutMe:focus, #btnAboutMe:hover{
+.btnAboutMe button:active, .btnAboutMe button:focus, .btnAboutMe button:hover{
     width: 110px;
     font-size: 12px;
     color: white;
@@ -100,50 +90,21 @@
     }
 }
 
-
-@media screen and (max-width: 1060px) {
-    .AboutMeContainer{
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
-        width: 100vw;
-        background-size: cover;
-        background-position-x: center;
-    }    
-    .title{
-        font-size: 14px;
-        padding-top: 20px;
-    }
-    .AboutMeContainer p{
-        width: 70%;
-        font-size: 18px;
-    }
-    .image{
-        width: 290px;
-    }
-    #btnAboutMe{
-        bottom: 120px;
-    }
-}
-
-
 @media screen and (max-width: 500px) {
     .AboutMeContainer{
         flex-direction: column;
         align-items: center;
         padding: 0px;
-        width: 560px;
+        width: 500px;
         background-size: cover;
         background-position: 41%;
     }
 
-    #AboutMe h1{
-        text-align: left;
+    #AboutMe{
+        bottom:100px;
+        left:10px
     }
-    
-    #AboutMe h2{
-        margin-bottom: 1px;
-        width: 50%;
+    #AboutMe h1{
         text-align: left;
     }
 
@@ -158,8 +119,9 @@
     .image{
         width: 290px;
     }
-    #btnAboutMe{
+    .btnAboutMe{
         bottom: 0px;
+        left:10px
     }
 }
 

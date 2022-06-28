@@ -38,10 +38,11 @@ render(){
                      
                      </p>}
                 {!this.state.visible&&<div id='AboutMe'>
-                    <h1>Sobre mí</h1>
-                    <h2>¡Soy la persona ideal para su empresa!</h2>
+                    <h1>SOBRE MI</h1>
                 </div>}
-                <button id='btnAboutMe' onClick={this.changeVisible}>{this.state.btn}</button>
+                <div className='btnAboutMe'>
+                <button onClick={this.changeVisible}>{this.state.btn}</button>
+                </div>
             </div>
     )
 }}
