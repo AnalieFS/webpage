@@ -1,6 +1,14 @@
 import './AboutMe.css';
-import AboutMeIMG from '../../img/AnaVerticalWeb.png';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectFade, Navigation, Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import Slice1 from '../../img/Slider/1.png';
+import second from '../../img/LenguajesBackground.jpg'
 import { Component } from 'react';
+
 
 export default class AboutMe extends Component{
 
@@ -20,23 +28,43 @@ export default class AboutMe extends Component{
     }
 
 render(){
+    
     return(
             
             <div className='AboutMeContainer'>
-                 {this.state.visible&&<img className='image' src={AboutMeIMG} alt='About Me'></img>}
-                 {this.state.visible&&<p>
-                     Desarrolladora Junior apasionada por la programación, 
-                     motivada por construir soluciones que mejoren el 
-                     desempeño y calidad de vida por medio del diseño e 
-                     implementación de aplicaciones nativas y/o páginas 
-                     web.
-                <br/>
-                <br/>
-                     Me considero una persona bastante curiosa y en búsqueda
-                     de aprender cosas nuevas todo el tiempo, me encanta encontrarme
-                     con retos que impliquen desafíos intelectuales.
-                     
-                     </p>}
+                 {this.state.visible&&
+                <Swiper className='sliderContainer'
+                loop={true}
+                spaceBetween={30}
+        effect={"fade"}
+        centeredSlides={true}
+        navigation={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[EffectFade, Navigation, Pagination]}
+       >
+                <SwiperSlide className='slider' >
+                    <div className='slide1'></div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='slide2'></div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='slide3'></div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='slide4'></div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='slide5'></div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='slide6'></div>
+                </SwiperSlide>
+                
+              </Swiper>
+                }
                 {!this.state.visible&&<div id='AboutMe'>
                     <h1>SOBRE MI</h1>
                 </div>}
