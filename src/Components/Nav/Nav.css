@@ -163,12 +163,7 @@
     #aNav{
         width: 70%;
     }
-    #aNav h1{
-        font-size: 14px;
-    }
-    #aNav h2{
-        font-size: 12px;
-    }
+   
 
     #aNav h1, #aNav h2{
         text-align: left;
@@ -228,3 +223,28 @@
 
 
 
+@media screen and (max-width: 1060px){
+
+    #aNav h1, #aNav h2{
+        text-align: left;
+        padding-left: 30px;
+    }
+#aNav h1{
+    font-size: 14px;
+}
+#aNav h2{
+    font-size: 10px;
+}
+
+.icons li:nth-child(1){
+    margin-top: 30px;
+}
+h3{
+    padding: 0px !important;
+    text-align: right;
+    font-size: 14px;
+}
+h4{
+    font-size: 10px;
+}
+}

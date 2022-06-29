@@ -13,7 +13,7 @@
     height: 100vh;
 }
 .sliderContainer{
-    height: 400px;
+    height: 450px;
     width: 100%;
     margin-top: 100px;
     animation: appearSlider 1s;
@@ -166,7 +166,7 @@
     .sliderContainer{
         height: 320px;
         width: 100%;
-        top: 5vh;
+        top: 0vh;
     }
 
     #AboutMe{

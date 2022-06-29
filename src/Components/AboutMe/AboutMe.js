@@ -5,8 +5,6 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Slice1 from '../../img/Slider/1.png';
-import second from '../../img/LenguajesBackground.jpg'
 import { Component } from 'react';
 
 
