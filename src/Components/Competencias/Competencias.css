@@ -220,7 +220,7 @@ border-color: rgb(25, 116, 235);
         padding: 0px;
         margin:0px;
         left:-20px;
-        height: 150px;
+        height: 30vh;
         padding-top: 10px;
     }
     .competenciasDescription p{
@@ -231,7 +231,8 @@ border-color: rgb(25, 116, 235);
         font-weight: 100;
         bottom: -60px;
         left:-35px;
-        width: 330px;
+        width: 90vw;
+        height: 50vh;
         letter-spacing: 2px;
         margin-bottom: 0px;
         text-align: justify;

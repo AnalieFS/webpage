@@ -50,7 +50,7 @@ export default class Experiencia extends Component{
         return(
             <div className='experienciaContainer'>
                 {!this.state.visible&&<div id="subtitleExperiencia">
-                   <h1>Experiencia</h1>
+                   <h1>EXPERIENCIA</h1>
                    <h2>Proyectos desarrollados y herramientas utilizadas.</h2>
                 </div>}
                 {this.state.visible&&<div className='buttonsExperiencia'>

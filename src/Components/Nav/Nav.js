@@ -86,7 +86,7 @@ export default class Nav extends Component {
               </div>
               {this.state.screenWidth <= 500 && (
                 <a href="/">
-                  <li className="ListNav">
+                  <li className="ListNav Name">
                     <h3>Analie Flórez Sánchez</h3>
                     <h4>Desarrollo Full Stack</h4>
                   </li>

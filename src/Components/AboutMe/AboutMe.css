@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 
-
 .AboutMeContainer{
     display: flex;
     flex-wrap: wrap;
@@ -11,61 +10,64 @@
     background-size:cover;
     max-width: 100vw;
     height: 100vh;
-}
-.sliderContainer{
-    height: 450px;
-    width: 100%;
-    margin-top: 100px;
-    animation: appearSlider 1s;
-    transition-duration: 1s;
+    overflow: hidden;
 }
 
-.slider img{
-    margin: auto;
-    height: 500px;
-    
+
+.sliderContainer{
+    height: 60vh;
+    width: 100%;
+    top: 70px;
+    animation: appearSlider 1s;
+    transition-duration: 1s;
 }
 
 .slide1{
     background-image: url(../../img/Slider/1.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 500px;
+    background-position: center;
+    height: 60vh;
 }
 
 .slide2{
     background-image: url(../../img/Slider/2.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 500px;
+    background-position: center;
+    height: 60vh;
 }
 
 .slide3{
     background-image: url(../../img/Slider/3.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 500px;
+    background-position: center;
+    height: 60vh;
 }
 
 .slide4{
     background-image: url(../../img/Slider/4.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 500px;
+    background-position: center;
+    height: 60vh;
 }
 
 .slide5{
     background-image: url(../../img/Slider/5.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 500px;
+    background-position: center;
+    height: 60vh;
 }
 
 .slide6{
     background-image: url(../../img/Slider/6.png);
     background-repeat: no-repeat;
     background-size:cover;
-    height: 500px;
+    background-position: center;
+    height: 60vh;
 }
 
 #AboutMe{
@@ -144,18 +146,18 @@
     }
     
 }
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 1000px) {
     .AboutMeContainer{
         padding: 0px;
-        width: 500px;
+        width: 100vw;
         height: 100vh;
         background-size: cover;
         background-position: 30%;
     }
     .sliderContainer{
-        height: 320px;
-        width: 100%;
-        top: 0vh;
+        height: 60vh;
+        top: 70px;
     }
 
     #AboutMe{
@@ -185,44 +187,42 @@
         background-image: url(../../img/Slider/1px.png);
         background-repeat: no-repeat;
         background-size:cover;
-        height: 320px;
+        height: 60vh;
     }
     
     .slide2{
         background-image: url(../../img/Slider/2px.png);
         background-repeat: no-repeat;
         background-size:cover;
-        height: 320px;
-
+        height: 60vh;
     }
     
     .slide3{
         background-image: url(../../img/Slider/3px.png);
         background-repeat: no-repeat;
         background-size:cover;
-        height: 320px;
-
+        height: 60vh;
     }
     
     .slide4{
         background-image: url(../../img/Slider/4px.png);
         background-repeat: no-repeat;
         background-size:cover;
-        height: 320px;
+        height: 60vh;
     }
     
     .slide5{
         background-image: url(../../img/Slider/5px.png);
         background-repeat: no-repeat;
         background-size:cover;
-        height: 320px;
+        height: 60vh;
     }
     
     .slide6{
         background-image: url(../../img/Slider/6px.png);
         background-repeat: no-repeat;
         background-size:cover;
-        height: 320px;
+        height: 60vh;
     }
 }
 
