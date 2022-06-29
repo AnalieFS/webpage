@@ -3,29 +3,87 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: relative;
+    list-style-type: none;
+    align-items: center;
+    margin: auto 0px;
 }
 
+.titleLenguajes{
+    position: absolute;
+    left: 55px;
+    bottom: 225px;
+
+}
 #lyh{
-    color: aliceblue;
-    font-weight: 100;
-    font-size: 16px;
-    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+font-size: 50px;
+letter-spacing: 2px;
+color: white;
+text-align: left;
+padding-left: 42px;
+text-shadow: 0px 0px 5px black;
+animation: appearSlider 1s;
+    transition-duration: 1s;
+    
+}
+
+#lyh2{
+    color: white;
+font-family: 'Poppins', sans-serif;
+font-size: 14px;
+font-weight: 100;
+letter-spacing: 2px;
+padding-left: 42px;
+text-align: left;
+text-shadow: 0px 0px 5px black;
+animation: appearSlider 1s;
+    transition-duration: 1s;
+    
 }
 
 .herramientas{
+    position: absolute;
     display: flex;
-    width: 80%;
-    height: 40vh;
+    width: 100%;
+    height: 100vh;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    margin: 0px auto 260px auto;
+    margin: 0px auto 0px auto;
+    top:-150px;
+    animation: appearTools 1s;
+    transition-duration: 1s;
+    
+}
 
+
+.btnLenguajes button{
+    position: absolute;
+    left: 50px;
+    bottom: 110px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 100;
+    width: 115px;
+    background-color: rgba(0, 0, 0, 0.281);
+    font-size: 14px;
+    margin-left: 50px;
+    transition-duration: 1s;
+}
+
+.btnLenguajes button:active, .btnLenguajes button:focus, .btnLenguajes button:hover{
+    color: rgb(255, 255, 255);
+    background-color: #6734b9;
+    border-color: #6734b9;
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.397);
 }
 
 h1{
@@ -318,9 +376,18 @@ h2{
 
 .git:focus, .git:hover, .git:hover h1, .git:hover h2{
     filter:saturate(2);
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
+@keyframes appearTools {
+    to{
+        opacity: 1;
+    }
+    from{
+        opacity: 0;
+    }
+    
+}
 
 @media screen and (max-width: 1060px){
     .lenguajesContainer{
@@ -328,63 +395,75 @@ h2{
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
     
+    .titleLenguajes{
+        position: absolute;
+        left: 55px;
+        bottom: 225px;
+
+    }
     #lyh{
-        color: aliceblue;
-        font-weight: 100;
-        font-size: 16px;
-        width: 400px;
-        margin: 0px auto;
-        padding-bottom: 80px;
-        padding-top: 80px;
+        font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: left;
+    padding-left: 42px;
+    text-shadow: 0px 0px 5px black;
     }
 
+    #lyh2{
+        color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-left: 42px;
+    text-align: left;
+    text-shadow: 0px 0px 5px black;
+    }
     
     .herramientas{
-        display: flex;
-        width: 450px;
-        height: 30vh;
-        flex-wrap: wrap;
+        position: absolute;
+        width: 70%;
+        top:-110px;
         justify-content: center;
         align-content: center;
-        margin: auto auto;
-        margin-top: 0px;
     }
     .python{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     } 
     
     .java{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
     .javascript{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
     .html{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
     .css{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
     .mysql{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
@@ -396,7 +475,7 @@ h2{
     
     .postgresql{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
@@ -408,49 +487,49 @@ h2{
     
     .react{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
     .node{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
     .typescript{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
     .linux{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
     .vs{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
     .vscode{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
     .pycharm{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
     
     .git{
         background-size: 40px;
-        width: 50px;
+        width: 90px;
         height: 110px;
     }
 
@@ -458,29 +537,47 @@ h2{
 
 @media screen and (max-width: 500px){
     
-    .lenguajesContainer{
-        width: 500px;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+   
+    .titleLenguajes{
+        position: absolute;
+        left: 55px;
+        bottom: 150px;
     }
     
     #lyh{
-        color: aliceblue;
-        font-weight: 100;
-        font-size: 16px;
-        margin-bottom: 105px;
+        font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: left;
+    padding-left: 0px;
+    text-shadow: 0px 0px 5px black;
+    }
+
+    .btnLenguajes button{
+        left:5px
+    }
+    #lyh2{
+        color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-left: 0px;
+    text-align: left;
+    text-shadow: 0px 0px 5px black;
     }
     
     .herramientas{
+        position: absolute;
         display: flex;
-        width: 450px;
-        height: 30vh;
+        width: 100%;
         flex-wrap: wrap;
         justify-content: center;
         align-content: center;
-        margin: 0px 0px 400px 10px;
+        margin: 0px;
+        bottom: 0px;
+        top:-80px
     }
     .python{
         background-size: 30px;
@@ -623,9 +720,5 @@ h2{
         margin-bottom: 110px;
     }
 
-    #lyh{
-        width: 450px;
-        font-size: 12px;
-    }
     
 }

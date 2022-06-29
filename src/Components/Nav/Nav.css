@@ -5,34 +5,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
 
 
-#root{
+#root {
     overflow: hidden;
 
 }
-.backOfNav{
+
+.backOfNav {
     display: block;
     position: fixed;
-    top:-20px;
+    top: -20px;
     width: 110%;
     height: 90px;
-    left:-20px;
+    left: -20px;
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(5px);
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 10;
-}
-.navBar{
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 10;
-    display:flex;
+}
+
+.navBar {
+    z-index: 10;
+    display: flex;
     position: fixed;
     right: 50px;
     height: 5%;
     margin: auto;
 }
 
-#aNav{
+#aNav {
     z-index: 10;
     display: flex;
     position: fixed;
@@ -41,7 +43,7 @@
     width: 400px;
 }
 
-#aNav h1{
+#aNav h1 {
     font-family: 'Allerta', sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
@@ -51,9 +53,9 @@
     font-weight: 500;
 }
 
-#aNav h2{
+#aNav h2 {
     margin: 0px;
-    font-family: 'Baloo Da 2', cursive;    
+    font-family: 'Baloo Da 2', cursive;
     font-size: 16px;
     letter-spacing: 4px;
     color: white;
@@ -61,7 +63,7 @@
     padding-bottom: 10px;
 }
 
-.icons{
+.icons {
     z-index: 10;
     padding: 0px;
     margin: 0px;
@@ -69,11 +71,12 @@
 }
 
 
-.iconsDiv{
+.iconsDiv {
     display: flex;
     float: left;
 }
-.ListNav h1{
+
+.ListNav h1 {
     font-size: 16px;
     font-family: 'Staatliches', cursive;
     color: white;
@@ -83,65 +86,71 @@
 
 }
 
-.ListNav{
+.ListNav {
     padding: 17px;
 }
-.ListNav img{
+
+.ListNav img {
     width: 40px;
 }
 
-.icons li{
-    list-style-type:none;
+.icons li {
+    list-style-type: none;
     float: left;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.position{
+
+.position {
     display: flex;
 }
 
-#btnNavBar{
+#btnNavBar {
     z-index: 12;
     display: none;
     background-color: transparent;
     border: none;
 }
 
-#btnNavBar img{
+#btnNavBar img {
     margin: 0px;
     width: 20px;
     transition-duration: 1s;
 
 }
 
-#btnNavBar img:focus, #btnNavBar img:hover, #btnNavBar img:active{
+#btnNavBar img:focus,
+#btnNavBar img:hover,
+#btnNavBar img:active {
     transform: rotate(450deg);
 }
 
 @keyframes appear {
-    to{
-        height:100vh;
+    to {
+        height: 100vh;
     }
-    from{
+
+    from {
         height: 0vh;
     }
 }
 
 
 @keyframes appearLetter {
-    to{
-        color:white;
+    to {
+        color: white;
     }
-    from{
+
+    from {
         color: transparent;
     }
 }
 
-@media screen and (max-width: 1060px){
+@media screen and (max-width: 1060px) {
 
-    
-    #btnNavBar{
+
+    #btnNavBar {
         display: flex;
         position: fixed;
         flex-direction: column;
@@ -149,28 +158,32 @@
         right: 50px;
         top: 20px;
     }
-  
-    .iconsDiv{
+
+    .iconsDiv {
         float: right;
     }
-    .ListNav h1{
-        margin:0px;
-    }
-    .navBar{
-        position: fixed;
-        right: -80px;  
-    }
-    #aNav{
-        width: 70%;
-    }
-   
 
-    #aNav h1, #aNav h2{
+    .ListNav h1 {
+        margin: 0px;
+    }
+
+    .navBar {
+        position: fixed;
+        right: -80px;
+    }
+
+    #aNav {
+        width: 80%;
+    }
+
+
+    #aNav h1,
+    #aNav h2 {
         text-align: left;
         padding-left: 70px;
     }
 
-    .icons{
+    .icons {
         background-color: rgb(43, 43, 43);
         height: 100vh;
         display: flex;
@@ -179,72 +192,84 @@
         padding-right: 135px;
         padding-left: 50px;
         animation: appear 1s;
-        transition-duration: 1s;   
+        transition-duration: 1s;
     }
 
-    .ListNav h1{
+    .ListNav h1 {
 
         animation: appearLetter 2s;
-        transition-duration: 2s;   
+        transition-duration: 2s;
     }
 
-    .icons li{
+    .icons li {
         border-bottom: 1px solid rgb(73, 73, 73);
-        width: 150px;      
-        align-items: flex-end;  
+        width: 150px;
+        align-items: flex-end;
         padding-right: 0px;
     }
-    .icons li:nth-child(1){
+
+    .icons li:nth-child(1) {
         margin-top: 50px;
     }
-    h3{
+
+    h3 {
         font-family: 'Allerta', sans-serif;
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin: 0px;
-    padding-top: 17px;
-    color: white;
-    font-weight: 500;
-    }
-    h4{
+        font-size: 16px;
+        letter-spacing: 1px;
         margin: 0px;
-        font-family: 'Baloo Da 2', cursive;    
+        padding-top: 17px;
+        color: white;
+        font-weight: 500;
+    }
+
+    h4 {
+        margin: 0px;
+        font-family: 'Baloo Da 2', cursive;
         font-size: 12px;
         letter-spacing: 2px;
         color: white;
         font-weight: 100;
         padding-bottom: 10px;
     }
-    #AboutMe h1{
+
+    #AboutMe h1 {
         font-size: 40px;
     }
-    
+
 }
 
 
 
-@media screen and (max-width: 1060px){
+@media screen and (max-width: 1060px) {
 
-    #aNav h1, #aNav h2{
+    #aNav h1,
+    #aNav h2 {
         text-align: left;
         padding-left: 30px;
     }
-#aNav h1{
-    font-size: 14px;
-}
-#aNav h2{
-    font-size: 10px;
-}
+    #aNav{
+        width: 80%;
+    }
 
-.icons li:nth-child(1){
-    margin-top: 30px;
-}
-h3{
-    padding: 0px !important;
-    text-align: right;
-    font-size: 14px;
-}
-h4{
-    font-size: 10px;
-}
+    #aNav h1 {
+        font-size: 16px;
+    }
+
+    #aNav h2 {
+        font-size: 12px;
+    }
+
+    .icons li:nth-child(1) {
+        margin-top: 30px;
+    }
+
+    h3 {
+        padding: 0px !important;
+        text-align: right;
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
 }

@@ -161,7 +161,7 @@ export default class Formacion extends Component {
           <div>
             {!this.state.visible && (
               <div id="subtitle">
-                <h1>Formación</h1>
+                <h1>FORMACION</h1>
                 <h2>¡Dele un vistazo a mis estudios!</h2>
               </div>
             )}
