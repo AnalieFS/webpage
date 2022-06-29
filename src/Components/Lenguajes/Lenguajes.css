@@ -1,4 +1,4 @@
-.lenguajesContainer{
+.lenguajesContainer {
     background-image: url(../../img/LenguajesBackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,40 +12,41 @@
     margin: auto 0px;
 }
 
-.titleLenguajes{
+.titleLenguajes {
     position: absolute;
     left: 55px;
     bottom: 225px;
 
 }
-#lyh{
+
+#lyh {
     font-family: 'Poppins', sans-serif;
-font-size: 50px;
-letter-spacing: 2px;
-color: white;
-text-align: left;
-padding-left: 42px;
-text-shadow: 0px 0px 5px black;
-animation: appearSlider 1s;
-    transition-duration: 1s;
-    
-}
-
-#lyh2{
+    font-size: 50px;
+    letter-spacing: 2px;
     color: white;
-font-family: 'Poppins', sans-serif;
-font-size: 14px;
-font-weight: 100;
-letter-spacing: 2px;
-padding-left: 42px;
-text-align: left;
-text-shadow: 0px 0px 5px black;
-animation: appearSlider 1s;
+    text-align: left;
+    padding-left: 42px;
+    text-shadow: 0px 0px 5px black;
+    animation: appearSlider 1s;
     transition-duration: 1s;
-    
+
 }
 
-.herramientas{
+#lyh2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-left: 42px;
+    text-align: left;
+    text-shadow: 0px 0px 5px black;
+    animation: appearSlider 1s;
+    transition-duration: 1s;
+
+}
+
+.herramientas {
     position: absolute;
     display: flex;
     width: 100%;
@@ -54,14 +55,14 @@ animation: appearSlider 1s;
     justify-content: center;
     align-content: center;
     margin: 0px auto 0px auto;
-    top:-150px;
+    top: -150px;
     animation: appearTools 1s;
     transition-duration: 1s;
-    
+
 }
 
 
-.btnLenguajes button{
+.btnLenguajes button {
     position: absolute;
     left: 50px;
     bottom: 110px;
@@ -79,34 +80,36 @@ animation: appearSlider 1s;
     transition-duration: 1s;
 }
 
-.btnLenguajes button:active, .btnLenguajes button:focus, .btnLenguajes button:hover{
+.btnLenguajes button:active,
+.btnLenguajes button:focus,
+.btnLenguajes button:hover {
     color: rgb(255, 255, 255);
     background-color: #6734b9;
     border-color: #6734b9;
     box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.397);
 }
 
-h1{
+h1 {
     text-align: center;
-    margin:0px;
+    margin: 0px;
     font-size: 14px;
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
-    color:transparent;
+    color: transparent;
     transition-duration: 1s;
 }
 
-h2{
+h2 {
     text-align: center;
-    margin:0px;
+    margin: 0px;
     font-size: 10px;
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
-    color:transparent;
+    color: transparent;
     transition-duration: 1s;
 }
 
-.python{    
+.python {
     background: url(../../img/Herramientas/python.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -115,9 +118,9 @@ h2{
     width: 110px;
     height: 130px;
     filter: saturate(0);
-} 
+}
 
-.java{
+.java {
     background: url(../../img/Herramientas/java.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -128,7 +131,7 @@ h2{
     filter: saturate(0);
 }
 
-.javascript{
+.javascript {
     background: url(../../img/Herramientas/javascript.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -139,7 +142,7 @@ h2{
     filter: saturate(0);
 }
 
-.html{
+.html {
     background: url(../../img/Herramientas/html.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -150,7 +153,7 @@ h2{
     filter: saturate(0);
 }
 
-.css{
+.css {
     background: url(../../img/Herramientas/css.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -161,7 +164,7 @@ h2{
     filter: saturate(0);
 }
 
-.mysql{
+.mysql {
     background: url(../../img/Herramientas/mysql.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -172,7 +175,7 @@ h2{
     filter: saturate(0);
 }
 
-.heidisql{
+.heidisql {
     background: url(../../img/Herramientas/HeidiSQL.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -183,7 +186,7 @@ h2{
     filter: saturate(0);
 }
 
-.postgresql{
+.postgresql {
     background: url(../../img/Herramientas/postgresql.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -194,7 +197,7 @@ h2{
     filter: saturate(0);
 }
 
-.docker{
+.docker {
     background: url(../../img/Herramientas/docker.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -205,7 +208,7 @@ h2{
     filter: saturate(0);
 }
 
-.react{
+.react {
     background: url(../../img/Herramientas/react.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -216,7 +219,7 @@ h2{
     filter: saturate(0);
 }
 
-.node{
+.node {
     background: url(../../img/Herramientas/nodejs.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -227,7 +230,7 @@ h2{
     filter: saturate(0);
 }
 
-.typescript{
+.typescript {
     background: url(../../img/Herramientas/typescript.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -238,7 +241,7 @@ h2{
     filter: saturate(0);
 }
 
-.linux{
+.linux {
     background: url(../../img/Herramientas/linux.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -249,7 +252,7 @@ h2{
     filter: saturate(0);
 }
 
-.vs{
+.vs {
     background: url(../../img/Herramientas/visual.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -260,7 +263,7 @@ h2{
     filter: saturate(0);
 }
 
-.vscode{
+.vscode {
     background: url(../../img/Herramientas/visual-studio-code.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -271,7 +274,7 @@ h2{
     filter: saturate(0);
 }
 
-.pycharm{
+.pycharm {
     background: url(../../img/Herramientas/pycharm.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -282,7 +285,7 @@ h2{
     filter: saturate(0);
 }
 
-.git{
+.git {
     background: url(../../img/Herramientas/github.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -293,241 +296,295 @@ h2{
     filter: saturate(0);
 }
 
-.python:focus, .python:hover, .python:hover h1, .python:hover h2{
-    filter:saturate(2);
-    color:white;
+.python:focus,
+.python:hover,
+.python:hover h1,
+.python:hover h2 {
+    filter: saturate(2);
+    color: white;
 }
 
 
-.java:focus, .java:hover, .java:hover h1, .java:hover h2{
-    filter:saturate(1);
-    color:white;
+.java:focus,
+.java:hover,
+.java:hover h1,
+.java:hover h2 {
+    filter: saturate(1);
+    color: white;
 }
 
-.javascript:focus, .javascript:hover, .javascript:hover h1, .javascript:hover h2{
-    filter:saturate(2);
-    color:white;
+.javascript:focus,
+.javascript:hover,
+.javascript:hover h1,
+.javascript:hover h2 {
+    filter: saturate(2);
+    color: white;
 }
 
-.html:focus, .html:hover, .html:hover h1,.html:hover h2{
-    filter:saturate(1);
-    color:white;
+.html:focus,
+.html:hover,
+.html:hover h1,
+.html:hover h2 {
+    filter: saturate(1);
+    color: white;
 }
 
-.css:focus, .css:hover, .css:hover h1, .css:hover h2{
-    filter:saturate(1);
-    color:white;
+.css:focus,
+.css:hover,
+.css:hover h1,
+.css:hover h2 {
+    filter: saturate(1);
+    color: white;
 }
 
-.mysql:focus, .mysql:hover, .mysql:hover h1, .mysql:hover h2{
-    filter:saturate(10);
-    color:white;
+.mysql:focus,
+.mysql:hover,
+.mysql:hover h1,
+.mysql:hover h2 {
+    filter: saturate(10);
+    color: white;
 }
 
-.heidisql:focus, .heidisql:hover, .heidisql:hover h1, .heidisql:hover h2{
-    filter:saturate(2);
-    color:white;
+.heidisql:focus,
+.heidisql:hover,
+.heidisql:hover h1,
+.heidisql:hover h2 {
+    filter: saturate(2);
+    color: white;
 }
 
-.postgresql:focus, .postgresql:hover, .postgresql:hover h1, .postgresql:hover h2{
-    filter:saturate(2);
-    color:white;
+.postgresql:focus,
+.postgresql:hover,
+.postgresql:hover h1,
+.postgresql:hover h2 {
+    filter: saturate(2);
+    color: white;
 }
 
-.docker:focus, .docker:hover, .docker:hover h1, .docker:hover h2{
-    filter:saturate(2);
-    color:white;
+.docker:focus,
+.docker:hover,
+.docker:hover h1,
+.docker:hover h2 {
+    filter: saturate(2);
+    color: white;
 }
 
-.react:focus, .react:hover, .react:hover h1, .react:hover h2{
-    filter:saturate(2);
-    color:white;
+.react:focus,
+.react:hover,
+.react:hover h1,
+.react:hover h2 {
+    filter: saturate(2);
+    color: white;
 }
 
-.node:focus, .node:hover, .node:hover h1, .node:hover h2{
-    filter:saturate(2);
-    color:white;
+.node:focus,
+.node:hover,
+.node:hover h1,
+.node:hover h2 {
+    filter: saturate(2);
+    color: white;
 }
 
-.typescript:focus, .typescript:hover, .typescript:hover h1, .typescript:hover h2{
-    filter:saturate(2);
-    color:white;
+.typescript:focus,
+.typescript:hover,
+.typescript:hover h1,
+.typescript:hover h2 {
+    filter: saturate(2);
+    color: white;
 }
 
-.linux:focus, .linux:hover, .linux:hover h1, .linux:hover h2{
-    filter:saturate(2);
-    color:white;
+.linux:focus,
+.linux:hover,
+.linux:hover h1,
+.linux:hover h2 {
+    filter: saturate(2);
+    color: white;
 }
 
-.vs:focus, .vs:hover, .vs:hover h1, .vs:hover h2{
-    filter:saturate(2);
-    color:white;
+.vs:focus,
+.vs:hover,
+.vs:hover h1,
+.vs:hover h2 {
+    filter: saturate(2);
+    color: white;
 }
 
-.vscode:focus, .vscode:hover, .vscode:hover h1, .vscode:hover h2{
-    filter:saturate(2);
-    color:white;
+.vscode:focus,
+.vscode:hover,
+.vscode:hover h1,
+.vscode:hover h2 {
+    filter: saturate(2);
+    color: white;
 }
 
-.pycharm:focus, .pycharm:hover, .pycharm:hover h1, .pycharm:hover h2{
-    filter:saturate(2);
-    color:white;
+.pycharm:focus,
+.pycharm:hover,
+.pycharm:hover h1,
+.pycharm:hover h2 {
+    filter: saturate(2);
+    color: white;
 }
 
-.git:focus, .git:hover, .git:hover h1, .git:hover h2{
-    filter:saturate(2);
-    color:rgb(0, 0, 0);
+.git:focus,
+.git:hover,
+.git:hover h1,
+.git:hover h2 {
+    filter: saturate(2);
+    color: rgb(0, 0, 0);
 }
 
 @keyframes appearTools {
-    to{
+    to {
         opacity: 1;
     }
-    from{
+
+    from {
         opacity: 0;
     }
-    
+
 }
 
-@media screen and (max-width: 1060px){
-    .lenguajesContainer{
+@media screen and (max-width: 1060px) {
+    .lenguajesContainer {
         width: 100vw;
         height: 100vh;
         display: flex;
         flex-direction: column;
     }
-    
-    .titleLenguajes{
+
+    .titleLenguajes {
         position: absolute;
         left: 55px;
         bottom: 225px;
 
     }
-    #lyh{
+
+    #lyh {
         font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    letter-spacing: 2px;
-    color: white;
-    text-align: left;
-    padding-left: 42px;
-    text-shadow: 0px 0px 5px black;
+        font-size: 50px;
+        letter-spacing: 2px;
+        color: white;
+        text-align: left;
+        padding-left: 42px;
+        text-shadow: 0px 0px 5px black;
     }
 
-    #lyh2{
+    #lyh2 {
         color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    padding-left: 42px;
-    text-align: left;
-    text-shadow: 0px 0px 5px black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        padding-left: 42px;
+        text-align: left;
+        text-shadow: 0px 0px 5px black;
     }
-    
-    .herramientas{
+
+    .herramientas {
         position: absolute;
         width: 70%;
-        top:-110px;
+        top: -110px;
         justify-content: center;
         align-content: center;
     }
-    .python{
-        background-size: 40px;
-        width: 90px;
-        height: 110px;
-    } 
-    
-    .java{
+
+    .python {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .javascript{
+
+    .java {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .html{
+
+    .javascript {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .css{
+
+    .html {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .mysql{
+
+    .css {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .heidisql{
+
+    .mysql {
+        background-size: 40px;
+        width: 90px;
+        height: 110px;
+    }
+
+    .heidisql {
         background-size: 40px;
         width: 50px;
         height: 110px;
     }
-    
-    .postgresql{
+
+    .postgresql {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .docker{
+
+    .docker {
         background-size: 40px;
         width: 50px;
         height: 110px;
     }
-    
-    .react{
+
+    .react {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .node{
+
+    .node {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .typescript{
+
+    .typescript {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .linux{
+
+    .linux {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .vs{
+
+    .vs {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .vscode{
+
+    .vscode {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .pycharm{
+
+    .pycharm {
         background-size: 40px;
         width: 90px;
         height: 110px;
     }
-    
-    .git{
+
+    .git {
         background-size: 40px;
         width: 90px;
         height: 110px;
@@ -535,40 +592,41 @@ h2{
 
 }
 
-@media screen and (max-width: 500px){
-    
-   
-    .titleLenguajes{
+@media screen and (max-width: 500px) {
+
+
+    .titleLenguajes {
         position: absolute;
         left: 55px;
         bottom: 150px;
     }
-    
-    #lyh{
+
+    #lyh {
         font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    letter-spacing: 2px;
-    color: white;
-    text-align: left;
-    padding-left: 0px;
-    text-shadow: 0px 0px 5px black;
+        font-size: 40px;
+        letter-spacing: 2px;
+        color: white;
+        text-align: left;
+        padding-left: 0px;
+        text-shadow: 0px 0px 5px black;
     }
 
-    .btnLenguajes button{
-        left:5px
+    .btnLenguajes button {
+        left: 5px
     }
-    #lyh2{
+
+    #lyh2 {
         color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    padding-left: 0px;
-    text-align: left;
-    text-shadow: 0px 0px 5px black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        padding-left: 0px;
+        text-align: left;
+        text-shadow: 0px 0px 5px black;
     }
-    
-    .herramientas{
+
+    .herramientas {
         position: absolute;
         display: flex;
         width: 100%;
@@ -577,148 +635,150 @@ h2{
         align-content: center;
         margin: 0px;
         bottom: 0px;
-        top:-80px
+        top: -80px
     }
-    .python{
+
+    .python {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
-        height: 100px;
-    } 
-    
-    .java{
-        background-size: 30px;
-        margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .javascript{
+
+    .java {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .html{
+
+    .javascript {
         background-size: 30px;
         margin: 0px !important;
         width: 90px;
         height: 100px;
     }
-    
-    .css{
+
+    .html {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .mysql{
+
+    .css {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
+        height: 100px;
+    }
+
+    .mysql {
+        background-size: 30px;
+        margin: 0px !important;
+        width: 70px;
         height: 100px;
         filter: saturate(0) brightness(2);
 
     }
-    
-    .heidisql{
+
+    .heidisql {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .postgresql{
+
+    .postgresql {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .docker{
+
+    .docker {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .react{
+
+    .react {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .node{
+
+    .node {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .typescript{
+
+    .typescript {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .linux{
+
+    .linux {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .vs{
+
+    .vs {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .vscode{
+
+    .vscode {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .pycharm{
+
+    .pycharm {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 70px;
         height: 100px;
     }
-    
-    .git{
+
+    .git {
         background-size: 30px;
-        width: 90px;
+        width: 70px;
         height: 100px;
         margin: 0px !important;
     }
-    h1{
+
+    h1 {
         text-align: center;
-        margin:0px;
+        margin: 0px;
         font-size: 12px;
         letter-spacing: 2px;
         font-family: 'Poppins', sans-serif;
-        color:transparent;
+        color: transparent;
         transition-duration: 1s;
     }
-    
-    h2{
+
+    h2 {
         text-align: center;
-        margin:0px;
+        margin: 0px;
         font-size: 8px;
         letter-spacing: 2px;
         font-family: 'Poppins', sans-serif;
-        color:transparent;
+        color: transparent;
         transition-duration: 1s;
         margin-bottom: 110px;
     }
 
-    
+
 }

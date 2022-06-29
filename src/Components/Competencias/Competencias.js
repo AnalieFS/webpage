@@ -19,9 +19,9 @@ export default class Competencias extends Component{
     return(
         <div className="competenciasContenedor">
             {this.state.visible&&<div className='competenciasVideos'>
-                <iframe id="video" width="400" height="225" src='https://www.youtube.com/embed/21X5lGlDOfg' title='La NASA en vivo' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe id="video" width="400" height="225" src="https://www.youtube.com/embed/DnrmpgKJPsY" title='Robots de Boston Dynamics' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe id="video" width="400" height="225" src="https://www.youtube.com/embed/_UTTGLB_UUU" title="Nuestro agujero negro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="video" width="400" height="200" src='https://www.youtube.com/embed/21X5lGlDOfg' title='La NASA en vivo' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="video" width="400" height="200" src="https://www.youtube.com/embed/DnrmpgKJPsY" title='Robots de Boston Dynamics' frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="video" width="400" height="200" src="https://www.youtube.com/embed/_UTTGLB_UUU" title="Nuestro agujero negro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>}
             <div className='competenciasDescription'>
             {!this.state.visible&&<div className="titleCompetencias"><h1>¿Considera la proactividad</h1>
