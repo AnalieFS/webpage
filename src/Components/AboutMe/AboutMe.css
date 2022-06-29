@@ -234,7 +234,8 @@
 }
 
 @media screen and (max-width: 500px){
-#AboutMe {
-    padding-left: 0px;
-    bottom: 0px !important;
+#AboutMe h1{
+    position: absolute;
+    width: 100vw;
+    bottom: 225px !important;
 }}

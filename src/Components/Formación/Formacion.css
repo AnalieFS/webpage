@@ -524,6 +524,10 @@
         text-shadow: 0px 0px 6px black;
     }
 
+    #FormacionSena h3, #FormacionPolitecnico h3, #FormacionUdemy h3, #FormacionSheWorks h3 {
+        padding-top: 0px;
+    }
+
     #btnFormacion{
         margin-left: 10px;
         bottom: 90px;
