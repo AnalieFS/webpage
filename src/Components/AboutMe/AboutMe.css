@@ -162,7 +162,7 @@
 
   #AboutMe {
     position: absolute;
-    margin-bottom: 225px;
+    margin-bottom: -50px;
     left: 10px;
   }
 
@@ -232,3 +232,9 @@
     height: 60vh;
   }
 }
+
+@media screen and (max-width: 500px){
+#AboutMe {
+    padding-left: 0px;
+    bottom: 0px !important;
+}}

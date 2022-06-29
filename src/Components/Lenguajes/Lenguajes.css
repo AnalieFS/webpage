@@ -442,7 +442,7 @@ h2 {
 .git:hover h1,
 .git:hover h2 {
     filter: saturate(2);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 @keyframes appearTools {
@@ -651,7 +651,7 @@ h2 {
     }
 
     .herramientas{
-       top: 20px;
+       top: 50px;
     }
 
     .java {
@@ -789,5 +789,10 @@ h2 {
         margin-bottom: 110px;
     }
 
-
+    .panelHerramientas {
+        overflow-y: scroll;
+        font-size: 12px;
+        top: 10px;
+        color: aliceblue;
+    }
 }

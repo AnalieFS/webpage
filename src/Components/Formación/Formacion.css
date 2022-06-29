@@ -537,8 +537,8 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        width: 80%;
-        margin-top: 40%;
+        width: 100%;
+        bottom: 140px;
         margin-left: 40px;
     }
 
