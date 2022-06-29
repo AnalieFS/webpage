@@ -20,6 +20,9 @@ export default class Lenguajes extends Component {
     return (
       <div className="lenguajesContainer">
         {this.state.visible && (
+            <div className="panelHerramientas">            
+                <h1 className="panelTitle">¡Clickea el ícono!</h1>
+
           <div className="herramientas">
             <div className="python">
               <h1>Python</h1>
@@ -89,7 +92,8 @@ export default class Lenguajes extends Component {
               <h1>Github</h1>
               <h2>Básico</h2>
             </div>
-          </div>
+          </div>          </div>
+
         )}
         {!this.state.visible && (
           <div className="titleLenguajes">

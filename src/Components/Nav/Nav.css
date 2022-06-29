@@ -147,7 +147,7 @@
     }
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1000px) {
 
 
     #btnNavBar {
@@ -240,17 +240,13 @@
 
 
 
-@media screen and (max-width: 1060px) {
-
-    #aNav h1,
-    #aNav h2 {
-        text-align: left;
-        padding-left: 30px;
+@media screen and (max-width: 500px){
+    .icons{
+        padding-right: 100px;
     }
-    #aNav{
-        width: 80%;
+    #btnNavBar{
+        right: 10px;
     }
-
     #aNav h1 {
         font-size: 16px;
     }
@@ -258,33 +254,24 @@
     #aNav h2 {
         font-size: 12px;
     }
-
-    .icons li:nth-child(1) {
-        margin-top: 30px;
-    }
-
-    h3 {
-        color: rgb(68, 68, 68);
-        padding: 0px !important;
-        text-align: right;
-        font-size: 11px;
-    }
-
-    h4 {
-        color: rgb(68, 68, 68);
-        font-size: 10px;
-    }
-
     .Name{
         padding: 0px;
     }
-}
 
-@media screen and (max-width: 500px){
-    .icons{
-        padding-right: 100px;
+    .Name h3{
+        color: rgb(92, 92, 92);
+        font-size: 10px;
     }
-    #btnNavBar{
-        right: 10px;
+    .Name h4{
+        color: rgb(92, 92, 92);
+        font-size: 9px;
+    }
+    #AboutMe {
+        padding-left: 0px;
+        
+        bottom: 25px;
+    }
+    .btnAboutMe{
+        left:10px
     }
 }
