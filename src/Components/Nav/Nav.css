@@ -163,6 +163,12 @@
     #aNav{
         width: 70%;
     }
+    #aNav h1{
+        font-size: 14px;
+    }
+    #aNav h2{
+        font-size: 12px;
+    }
 
     #aNav h1, #aNav h2{
         text-align: left;
@@ -213,6 +219,9 @@
         color: white;
         font-weight: 100;
         padding-bottom: 10px;
+    }
+    #AboutMe h1{
+        font-size: 40px;
     }
     
 }
