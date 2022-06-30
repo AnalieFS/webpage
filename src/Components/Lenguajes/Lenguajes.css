@@ -646,46 +646,47 @@ h2 {
     .python {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .herramientas{
-       top: 50px;
+    overflow-x: hidden;
+       top: 70px;
     }
 
     .java {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .javascript {
         background-size: 30px;
         margin: 0px !important;
-        width: 90px;
+        width: 50px;
         height: 100px;
     }
 
     .html {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .css {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .mysql {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
         filter: saturate(0) brightness(2);
 
@@ -694,76 +695,76 @@ h2 {
     .heidisql {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .postgresql {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .docker {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .react {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .node {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .typescript {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .linux {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .vs {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .vscode {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .pycharm {
         background-size: 30px;
         margin: 0px !important;
-        width: 70px;
+        width: 50px;
         height: 100px;
     }
 
     .git {
         background-size: 30px;
-        width: 70px;
+        width: 50px;
         height: 100px;
         margin: 0px !important;
     }

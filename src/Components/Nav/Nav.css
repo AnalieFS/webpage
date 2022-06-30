@@ -16,7 +16,6 @@
     top: -20px;
     width: 100%;
     height: 90px;
-    left: -20px;
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(5px);
     background-position: center;
@@ -64,6 +63,7 @@
 }
 
 .icons {
+    overflow-y: scroll;
     z-index: 10;
     padding: 0px;
     margin: 0px;
@@ -241,6 +241,7 @@
 
 
 @media screen and (max-width: 500px){
+   
     .icons{
         padding-right: 100px;
     }
