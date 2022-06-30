@@ -233,20 +233,19 @@
   }
 }
 
-@media screen and (max-width: 500px){
-
-    #AboutMe h1{
+@media screen and (max-width: 500px) {
+  #AboutMe h1 {
     position: absolute;
-    width:max-content;
+    width: max-content;
     bottom: 225px !important;
-}
-.btnAboutMe{
+  }
+  .btnAboutMe {
     position: absolute;
     bottom: 0px;
-}
+  }
 
-.btnAboutMe button{
+  .btnAboutMe button {
     position: absolute;
-    bottom: 90px;
-}
+    bottom: 70px;
+  }
 }
