@@ -22,9 +22,14 @@
 }
 
 .panelTitle{
-    font-size: 16px;
+    display: flex;
     color: aliceblue;
+    margin: auto;
+    margin-top:70px;
+
 }
+
+
 
 .titleLenguajes {
     position: absolute;
@@ -60,17 +65,18 @@
 }
 
 .herramientas {
-    position:inherit;
+    position:absolute;
     display: flex;
-    width: 100%;
+    width: 60%;
+    left: 20vw;
     height: 50vh;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    margin: 0px auto 0px auto;
+    margin: auto;
     animation: appearTools 1s;
     transition-duration: 1s;
-    top:0px;
+    top:120px;
+    justify-content: center;
+    overflow-y: scroll;
 }
 
 
@@ -651,7 +657,6 @@ h2 {
     }
 
     .herramientas{
-    overflow-x: hidden;
        top: 70px;
     }
 
