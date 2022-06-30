@@ -55,8 +55,8 @@ export default class Experiencia extends Component{
                 </div>}
                 {this.state.visible&&<div className='buttonsExperiencia'>
                     <button onClick={()=>{this.moduleOpen(1)}}>Kapriche</button>
-                    <button onClick={()=>{this.moduleOpen(2)}}>Check My Vehicle</button>
-                    <button onClick={()=>{this.moduleOpen(0)}}>Vehicle Tracker</button>
+                    <button onClick={()=>{this.moduleOpen(2)}}>CMV</button>
+                    <button onClick={()=>{this.moduleOpen(0)}}>VT</button>
                 </div>}
                 <button id='btnExperiencia' onClick={this.buttons}>{this.state.buttonState}</button>
 
