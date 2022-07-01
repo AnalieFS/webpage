@@ -175,7 +175,7 @@
 }
 
 #SobreMiBoton:hover, #SobreMiBoton:focus{
-    box-shadow: inset 150px 0 0 0 var(--hover);
+    box-shadow: inset 150px 0px 0px 0px var(--hover);
     border-color: #BE91DD;
     font-weight: 600;
     color:#6e5280
@@ -210,17 +210,18 @@
         background-position-x:20%;
     }
     .SobreMiModulo1{
-        height: 75vh;
+        height: 70vh;
         width: 100vw;
     }
 
     .horizontalSwipper{
+        top:55px;
         height: 100%;
-        width: 70%;
+        width: 100%;
     }
 
     .SobreMiModulo2{
-        height: 25vh;
+        height: 30vh;
         width: 100vw;
     }
 
@@ -231,7 +232,12 @@
     #SobreMiBoton{
         position: absolute;
         left: 20px;
-        top: 45px
+        top: 65px
+    }
+
+    #SobreMiBoton:hover, #SobreMiBoton:focus{
+        box-shadow: none;
+        background-color: #BE91DD;
     }
 
     .img1{
