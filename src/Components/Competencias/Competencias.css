@@ -1,0 +1,247 @@
+.competenciasContenedor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(../../img/CompetenciasBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.8); 
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.competenciasDescription{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: left;
+    bottom: 225px;
+    left:50px;
+    text-shadow: 0px 0px 5px black;
+   }
+
+.competenciasDescription h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: left;
+    padding-left: 60px;
+    text-shadow: 0px 0px 5px black;
+    animation: appearDescripcion 1s;
+    transition-duration: 1s;
+}
+
+.competenciasDescription h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-left: 60px;
+    text-align: left;
+    text-shadow: 0px 0px 5px black;
+    animation: appearDescripcion 1s;
+    transition-duration: 1s;
+}
+
+.competenciasDescription p{
+    color: white;
+    width: 85%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-shadow: 0px 0px 1px rgb(35 35 35);
+    animation: appearDescripcion 1s;
+    transition-duration: 1s;
+    background-color: rgba(7, 7, 7, 0.103);
+    backdrop-filter: blur(5px);  
+}
+
+@keyframes appearDescripcion {
+    from{
+        color: transparent
+    }
+    to{
+        color: white;
+    }
+}
+
+.competenciasVideos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+    width: 100%;
+    height: 25%;
+    margin-top:70px;
+}
+
+#video{
+    padding-right: 50px;
+}
+
+#btnCompetencias{
+    position: absolute;
+    left: 50px;
+    bottom: 110px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.61);
+    color: rgb(255, 255, 255);
+    padding: 10px 2px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+    width: 115px;
+    font-size: 14px;
+    margin-left: 50px;
+    transition-duration: 1s;
+}
+
+#btnCompetencias:active, #btnCompetencias:focus, #btnCompetencias:hover{
+    background-color: rgb(25, 116, 235);
+border-color: rgb(25, 116, 235);
+
+    }
+
+@keyframes colorBackgroundCompetencias {
+    from{
+        background-color: transparent;
+    }
+    to{
+        background-color: rgba(255, 174, 0, 0.692);
+        color:white;
+        border:1px solid rgba(255, 174, 0, 0.692);
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .competenciasContenedor{
+        display: flex;
+        flex-direction: column;
+        background-position: center;
+        filter: brightness(0.8); 
+        width: 1060px;
+    }
+    #video{
+        padding-bottom: 30px;
+    }
+    .competenciasVideos{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-y: scroll;
+        padding: 0px;
+        margin:30px auto 50px 60px;
+        align-items: center;
+        width: 100vw;
+        height: 40%;
+    }
+    .competenciasDescription p{
+        position: absolute;
+        width: 80%;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        bottom: -10px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        text-align: left;
+        background-color: rgba(7, 7, 7, 0.103);
+        backdrop-filter: blur(5px);
+    }
+    .competenciasDescription h1{
+        font-size: 30px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .competenciasContenedor{
+        width: 100vw;
+       }
+    #btnCompetencias{
+        left: 5px;
+    }
+
+    .titleCompetencias{
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+        width: 80vw;
+    }
+    #video{
+        padding-bottom: 30px;
+        padding-left: 100px;
+    }
+
+    .competenciasDescription{
+        bottom: 225px;
+    }
+
+    .competenciasDescription h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: left;
+    padding-left: 0px;
+    text-shadow: 0px 0px 5px black;
+    }
+    .competenciasDescription h2{
+        margin-bottom: 0px;
+        padding-left: 0px;
+        color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-left: 0px;
+    text-align: left;
+    text-shadow: 0px 0px 5px black;
+    }
+
+    .competenciasVideos{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-y: scroll;
+        padding: 0px;
+        margin:0px;
+        left:-20px;
+        height: 30vh;
+        padding-top: 10px;
+        bottom: 65vh;
+
+    }
+    .competenciasDescription p{
+        position: absolute;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;
+        font-weight: 100;
+        bottom: -60px;
+        left:-35px;
+        width: 90vw;
+        letter-spacing: 2px;
+        margin-bottom: 0px;
+        text-align: justify;
+        margin-left: 0px;
+    }
+}
+

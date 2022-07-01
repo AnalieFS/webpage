@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap');
+.SobreMiBackground{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../img/Backgrounds/SobreMiBackground.jpg);
+    background-color: aliceblue;
+    background-position: center;
+    background-size: cover;
+}
+
+.SobreMiModulo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position:inherit;
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+   }
+
+.horizontalSwipper{
+    position: inherit;
+    top:110px;
+    height: 40vw;
+    width: 80vw;
+    box-shadow: 0px 0px 20px rgba(228, 205, 231, 0.253);
+}
+
+
+
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 30px;
+    color: white;
+    animation: brilloDeTexto 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background:#BE91DD;
+}
+
+#swipper{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    animation: aparecer 1s;
+}
+
+.swiper-button-next{
+    right: -2px;
+}
+
+.swiper-button-prev{
+    left: 0px;
+    font-size: 30px;
+    color: white;
+    animation: brilloDeTexto 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.img1{
+    background-image: url(../../img/Slider/100%/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.img2{
+    background-image: url(../../img/Slider/100%/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.img3{
+    background-image: url(../../img/Slider/100%/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.img4{
+    background-image: url(../../img/Slider/100%/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.img5{
+    background-image: url(../../img/Slider/100%/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.img6{
+    background-image: url(../../img/Slider/100%/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.img7{
+    background-image: url(../../img/Slider/100%/7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.img8{
+    background-image: url(../../img/Slider/100%/8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.img9{
+    background-image: url(../../img/Slider/100%/9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.SobreMiModulo2{
+    position: relative;
+    height: 30vh;
+    width: 100%;
+    
+}
+
+#SobreMiTitulo{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.651);
+    font-family: 'Heebo', sans-serif;
+    animation: aparecer 1s;
+
+}
+
+#SobreMiBoton{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    width: 125px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 15px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;
+    transition-duration: 1s;
+    --hover: #BE91DD;
+}
+
+#SobreMiBoton:hover, #SobreMiBoton:focus{
+    box-shadow: inset 125px 0 0 0 var(--hover);
+    border-color: #BE91DD;
+    font-weight: 600;
+    color:#6e5280
+}
+   
+
+@keyframes brilloDeTexto {
+    from{
+        font-size: 30px;
+        text-shadow: none
+    }
+    to{
+        font-size: 35px;
+        text-shadow: 0px 0px 10px #BE91DD;    
+}
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+    }
+
+    from {
+        opacity: 0;
+    }
+}
+
+
+/* Configuración pantallas de 1023 de ancho */
+@media screen and (max-width: 1023px){
+    .horizontalSwipper{
+        height: 80vw;
+        width: 80vw;
+    }
+    
+    .img1{
+        background-image: url(../../img/Slider/1023/1.jpg);
+    }
+    .img2{
+        background-image: url(../../img/Slider/1023/2.jpg);
+    }
+    .img3{
+        background-image: url(../../img/Slider/1023/3.jpg);
+    }
+    .img4{
+        background-image: url(../../img/Slider/1023/4.jpg);
+    }
+    .img5{
+        background-image: url(../../img/Slider/1023/5.jpg);
+    }
+    .img6{
+        background-image: url(../../img/Slider/1023/6.jpg);
+    }
+    .img7{
+        background-image: url(../../img/Slider/1023/7.jpg);
+    }
+    .img8{
+        background-image: url(../../img/Slider/1023/8.jpg);
+    }
+    .img9{
+        background-image: url(../../img/Slider/1023/9.jpg);
+    }
+}
+
+/* Configuración pantallas de 767 de ancho */
+@media screen and (max-width: 767px){
+    .horizontalSwipper{
+        height: 70vh;
+        width: 35vh;
+    }
+}

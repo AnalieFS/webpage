@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+.titleFormación{
+    background-image: url('../../img/FormacionBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.list{
+    width: 100vw;
+    display: flex;
+    position: relative;
+    list-style-type: none;
+    align-items: center;
+}
+
+#subtitle{
+    float: right;
+    position:absolute;
+    text-align: left;
+    left: 50px;
+    bottom: 225px;
+}
+
+#subtitle h1{    
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: left;
+    padding-left: 45px;
+    text-shadow: 0px 0px 5px black;
+    animation: appearTitle 1s;
+    transition-duration: 1s;  
+
+}
+
+#subtitle h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-left: 45px;
+    text-align: left;
+    animation: appearTitle 1s;
+    transition-duration: 1s;  
+
+}
+
+@keyframes appearTitle {
+    to{
+        opacity: 1;
+    }
+    from{
+        opacity: 0;
+    }
+    
+}
+
+#Formacion{
+    width: 60%;
+    margin-bottom: 100px;
+}
+
+#btnFormacion{
+    position: absolute;
+    left: 50px;
+    bottom: 110px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 100;
+    width: 115px;
+    font-size: 14px;    
+    margin-left: 50px;
+    transition-duration: 1s;
+}
+#logosMenu{
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    bottom: 225px;
+    margin: 0px 0px 0px 80px;
+    padding-left: 0px;
+}
+
+
+#btnCurso{       
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    width: 115px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border: 1px solid white;
+    padding: 10px 0px;    
+    animation: appearFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#btnCurso:active, #btnCurso:focus, #btnCurso:hover{
+    color: rgb(46, 46, 46);
+    border-color: rgb(230, 215, 14);
+    background-color: rgb(230, 215, 14);
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.397);
+}
+
+#btnFormacion:active, #btnFormacion:focus, #btnFormacion:hover{
+    color: rgb(46, 46, 46);
+    border-color: rgb(230, 215, 14);
+    background-color: rgb(230, 215, 14);
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.397);
+
+}
+
+
+@keyframes shinning {
+    from{
+
+    }
+    to{
+        filter:brightness(100%);
+    }
+}
+
+
+
+.logo img{
+    width: 75px;
+}
+
+.pequeño img{
+    width: 140px;
+}
+
+.titleFormación{
+    font-size: 20px;
+    text-align: center;
+}
+
+.titleFormación h1{
+    font-family: monospace;
+    color: #736663;
+    margin: 0px;
+}
+
+
+.logo{
+    display: flex;
+    width: 115px;
+    margin: 0px;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+#FormacionSena{
+    position: absolute;
+    width: 80%;
+    top:100px;
+    left:100px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+}
+
+#FormacionSena img{    
+    margin: auto;
+    width: 45px;
+    filter: contrast(0) brightness(3);
+    padding-right: 10px;
+    animation: detallesFormacionLogo 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionSena h1{
+    text-align: left;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionSena h2{
+    margin:0px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionSena h3{
+    text-align: left;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin: 0px;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionSena p{
+    text-align: left;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin: 0px;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+
+#FormacionPolitecnico{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    width: 80%;
+    top:100px;
+    left:100px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+}
+
+#FormacionPolitecnico img{
+    margin: auto;
+    width: 120px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    filter: contrast(0) brightness(3);
+    animation: detallesFormacionLogo 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionPolitecnico h1{
+    color:white;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionPolitecnico h2{
+    margin:0px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-weight: 100;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionPolitecnico h3{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    text-align: left;
+    margin: 0px;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionPolitecnico p{
+    text-align: left;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin: 0px;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionUdemy{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    width: 80%;
+    top:100px;
+    left:100px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+}
+
+#FormacionUdemy img{
+    margin: auto;
+    width: 120px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    filter: contrast(0) brightness(3);
+    animation: detallesFormacionLogo 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionUdemy h1{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionUdemy h2{
+    margin:0px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-weight: 100;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionUdemy h3{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin: 0px;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionUdemy p{
+    text-align: left;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin: 0px;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+
+#FormacionSheWorks{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    width: 80%;
+    top:100px;
+    left:100px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+}
+
+#FormacionSheWorks img{
+    margin: auto;
+    width: 150px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    filter: brightness(3);
+    animation: detallesFormacionLogo 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionSheWorks h1{
+    color:white;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionSheWorks h2{
+    margin:0px;
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 5px;
+    font-weight: 100;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionSheWorks h3{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin: 0px;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+}
+
+#FormacionSheWorks p{
+    text-align: left;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin: 0px;
+    animation: detallesFormacion 1s;
+    transition-duration: 1s;  
+    
+}
+
+@keyframes borderShine {
+    from{}
+    to{
+        border-bottom: none;
+    }
+}
+
+@keyframes appearFormacion {
+    from{
+        border: none;
+        color: transparent;
+        background-color: transparent;
+    }
+    to{
+        border: 1px solid white;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.397);
+        width: 115px;
+    }
+}
+
+@keyframes detallesFormacion{
+    from{
+        color:transparent
+    }
+    to{
+        color: white;
+    }
+}
+@keyframes detallesFormacionLogo {
+    from{
+        width: 250px;
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .list{
+        background-position: center;
+    }
+    #logosMenu{
+        margin-left: 50px;
+    }
+    #subtitle h1{
+        font-size: 30px;
+    }
+    #subtitle h1,#subtitle h2{
+        padding-left: 20px;
+    }
+    #btnCurso{        
+        padding: 10px;        
+    }
+    #btnFormacion{
+        margin-left: 20px;
+    }
+    #FormacionSena{
+        width:80%;
+        top: 10%;
+        left:60px;
+        padding: 0px;
+    }
+    #FormacionPolitecnico{
+        width:80%;
+        top: 10%;
+        left:60px;
+        padding: 0px;
+    }
+    #FormacionUdemy{
+        width:80%;
+        top: 10%;
+        left:60px;
+        padding: 0px;
+    }
+    #FormacionSheWorks{
+        width:80%;
+        top: 10%;
+        left:60px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .list{
+        width: 500px;
+        height: 100vh;
+        background-position: center;
+    }
+
+    #subtitle h1{
+        text-align: left;
+        padding-left: 9px;
+        font-size: 30px;
+    }
+
+    #subtitle h2{
+        margin-bottom: 0px;
+        padding-left: 9px;
+        text-shadow: 0px 0px 6px black;
+    }
+
+    #FormacionSena h3, #FormacionPolitecnico h3, #FormacionUdemy h3, #FormacionSheWorks h3 {
+        padding-top: 0px;
+    }
+
+    #btnFormacion{
+        margin-left: 10px;
+        bottom: 90px;
+    }
+
+    #btnCurso{        
+        background-color: rgba(0, 0, 0, 0.295);
+    }
+
+    #logosMenu{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        bottom: 140px;
+        margin-left: 40px;
+    }
+
+}
