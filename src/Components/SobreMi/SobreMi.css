@@ -207,7 +207,7 @@
 /* Configuración pantallas de 960 de ancho */
 @media screen and (max-width: 960px){
     .SobreMiModulo1{
-        height: 85vh;
+        height: 75vh;
         width: 100vw;
     }
 
@@ -217,7 +217,7 @@
     }
 
     .SobreMiModulo2{
-        height: 15vh;
+        height: 25vh;
         width: 100vw;
     }
 
