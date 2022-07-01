@@ -25,20 +25,21 @@
 }
 
 .AcademiaContainer h1{
-    color: white;
-    padding-top: 85px;
-    font-size: 30px;
+    color: rgb(41, 41, 41);
+    padding-top: 30px;
+    font-size: 120px;
     font-family: 'Montserrat Subrayada', sans-serif;
+    z-index: 2;
 }
 
 .AcademiaContainer h2{
     position: absolute;
-    color: rgb(255, 255, 255);
+    color: rgb(66, 66, 66);
     font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 30px;
+    font-size: 120px;
     font-weight: 100;
-    top:450px;
-    left:50%;
+    top:480px;
+    left:10vw;
 }
 
 .AcademiaContainer blockquote{
