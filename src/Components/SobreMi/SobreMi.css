@@ -206,6 +206,9 @@
 
 /* Configuración pantallas de 960 de ancho */
 @media screen and (max-width: 960px){
+    .SobreMiBackground{
+        background-position-x:20%;
+    }
     .SobreMiModulo1{
         height: 75vh;
         width: 100vw;
@@ -222,12 +225,13 @@
     }
 
     #SobreMiTitulo{
-        left: 75px;
+        left: 20px;
     }
 
     #SobreMiBoton{
         position: absolute;
-        left: 75px;
+        left: 20px;
+        top: 45px
     }
 
     .img1{
