@@ -164,7 +164,7 @@
     width: 150px;
     height: 50px;
     background-color: transparent;
-    border: 1px solid #91caffa2;
+    border: 2px solid white;
     font-size: 15px;
     color: white;
     letter-spacing: 2px;
@@ -186,7 +186,6 @@ svg {
   }
 #SobreMiBoton:hover svg, #SobreMiBoton:focus svg {
     stroke-dashoffset: -480;
-  
 }
    
 
