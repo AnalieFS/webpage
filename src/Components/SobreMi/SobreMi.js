@@ -77,9 +77,10 @@ export default class SobreMi extends Component {
         </div>
         <div className="SobreMiModulo2">
           {!this.state.active&&(<h1 id="SobreMiTitulo">SOBRE MÍ</h1>)}
-          <button id="SobreMiBoton" onClick={this.visible}><svg width="150px" height="50px" viewBox="0 0 180 60" class="border">
-          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-              </svg>{this.state.buttonText}</button>
+          <button id="SobreMiBoton" onClick={this.visible}><svg width="150px" height="50px" viewBox="0 0 150 50" class="border">
+          <polyline points="149,1 149,49 1,49 1,1 149,1" class="bg-line" />
+          <polyline points="149,1 149,49 1,49 1,1 149,1" class="hl-line" />
+           </svg>{this.state.buttonText}</button>
         </div>
       </div>
     );
