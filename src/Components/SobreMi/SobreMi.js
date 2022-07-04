@@ -28,7 +28,6 @@ export default class SobreMi extends Component {
     return (
       <div className="SobreMiBackground">
         <div className="SobreMiModulo1">
-          {this.state.active && (
             <div className="horizontalSwipper">
               <Swiper
                 id="swipper"
@@ -39,7 +38,6 @@ export default class SobreMi extends Component {
                 navigation={true}
                 pagination={{
                   clickable: true,
-                  type: "progressbar",
                 }}
                 modules={[EffectFade, Navigation, Pagination]}
               >
@@ -61,32 +59,9 @@ export default class SobreMi extends Component {
                 <SwiperSlide>
                   <div className="img6"></div>
                 </SwiperSlide>
-                <SwiperSlide>
-                  <div className="img7"></div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="img8"></div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="img9"></div>
-                </SwiperSlide>
               </Swiper>
             </div>
-          )}
-        </div>
-        <div className="SobreMiModulo2">
-          {!this.state.active && <h1 id="SobreMiTitulo">SOBRE MÍ</h1>}
-          <button id="SobreMiBoton" onClick={this.visible}>
-            <svg 
-              width="150px"
-              height="50px"
-              viewBox="0 0 150 50"
-            >
-              <polyline points="149,1 149,49 1,49 1,1 149,1" />
-              <polyline points="149,1 149,49 1,49 1,1 149,1" />
-            </svg>
-            {this.state.buttonText}
-          </button>
+          
         </div>
       </div>
     );
