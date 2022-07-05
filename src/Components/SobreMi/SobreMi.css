@@ -4,6 +4,7 @@
   background-image: url(../../img/Backgrounds/SobreMiBackGround.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-position-y: 0px;
   background-color: #0d0d0d;
   position: relative;
   height: 100vh;
@@ -98,14 +99,14 @@
 /* Configuración pantallas de 960 de ancho */
 @media screen and (max-width: 960px) {
   .SobreMiBackground {
-    height: 210vh;
+    height: 320vh;
     flex-direction: column;
   }
 
   .mySwiper1 {
     top: 0px;
     margin-top: 70px;
-    width: 70%;
-    height: 60vh;
+    width: 90%;
+    height: 90vh;
   }
 }
