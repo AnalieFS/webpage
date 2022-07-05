@@ -98,7 +98,7 @@
 /* Configuración pantallas de 960 de ancho */
 @media screen and (max-width: 960px) {
   .SobreMiBackground {
-    height: 300vh;
+    height: 210vh;
     flex-direction: column;
   }
 
@@ -106,6 +106,6 @@
     top: 0px;
     margin-top: 70px;
     width: 70%;
-    height: 90vh;
+    height: 60vh;
   }
 }
