@@ -17,7 +17,6 @@ function App() {
     <Nav></Nav>
     <SobreMi></SobreMi>
     <Formacion></Formacion>
-    <Lenguajes></Lenguajes>
     <Competencias></Competencias>
     <Experiencia></Experiencia>
     <Contacto></Contacto>

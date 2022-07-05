@@ -63,7 +63,6 @@
 }
 
 .icons {
-    overflow-y: scroll;
     z-index: 10;
     padding: 0px;
     margin: 0px;

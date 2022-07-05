@@ -10,37 +10,146 @@
     z-index: 1;
     overflow-y: visible;
     overflow-x: hidden;
-
+    width:100%;
 }
 
-
-.AcademiaBanner{
-    background-image: url(../../../../img/AcademiaLogos/AcademiaBanner.png);
-    background-position: center;
+.Modulo1{
+    display: flex;
+    flex-direction:row;
+    background-image: url(../../../../img/AcademiaLogos/1.png);
     background-repeat: no-repeat;
-    background-size: cover;    
-    background-position-y: 100%;
-    width:100vw;
-    height: 40vh;
+    background-size:cover;  
+    justify-content: center;  
+    width:100%;
+    height: 100vh;
+    
 }
 
-.AcademiaContainer h1{
-    color: rgb(41, 41, 41);
-    padding-top: 30px;
-    font-size: 120px;
-    font-family: 'Montserrat Subrayada', sans-serif;
-    z-index: 2;
-}
-
-.AcademiaContainer h2{
+.Modulo1 h1{
     position: absolute;
-    color: rgb(66, 66, 66);
-    font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 120px;
-    font-weight: 100;
-    top:480px;
-    left:10vw;
+    top: 95vh;
+    left:100px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Heebo", sans-serif;
 }
+
+.Sena{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin-top: 110px;
+    height: 70%;
+    margin-right: 40px;
+    padding: 10px;
+    background-image: url(../../../../img/AcademiaLogos/5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #40403F;
+    border-radius: 45px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.Sena h1, .Sena h3 , .Sena p{
+    color: white;
+    position: inherit;
+}
+
+.Sena p{
+    padding-top: 0px !important;
+    margin: 0px !important;
+}
+
+.Sena img{
+width: 75px;
+filter:brightness(10) saturate(0)
+}
+
+
+.Udemy{
+    width: 30%;
+    margin-top: 110px;
+    background-image: url(../../../../img/AcademiaLogos/6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70%;
+    padding: 10px;
+    margin-left: 40px;
+    background-color: #40403F;
+    border-radius: 45px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.Udemy h1, .Udemy h3, .Udemy p{
+    color: white;
+    position: inherit;
+}
+
+.Modulo2{
+    display: flex;
+    flex-direction:row;
+    background-image: url(../../../../img/AcademiaLogos/2.png);
+    background-repeat: no-repeat;
+    background-size:cover;  
+    justify-content: center;  
+    width:100%;
+    height: 100vh;
+}
+
+.Modulo2 h1{
+    position: absolute;
+    top: 195vh;
+    left:100px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Heebo", sans-serif;
+}
+
+.Modulo3{
+    display: flex;
+    flex-direction:row;
+    background-image: url(../../../../img/AcademiaLogos/3.png);
+    background-repeat: no-repeat;
+    background-size:cover;  
+    justify-content: center;  
+    width:100%;
+    height: 100vh;
+}
+
+.Modulo3 h1{
+    position: absolute;
+    top: 295vh;
+    left:100px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Heebo", sans-serif;
+}
+
+.Modulo4{
+    display: flex;
+    flex-direction:row;
+    background-image: url(../../../../img/AcademiaLogos/4.png);
+    background-repeat: no-repeat;
+    background-size:cover;  
+    justify-content: center;  
+    width:100%;
+    height: 100vh;
+}
+
+.Modulo4 h1{
+    position: absolute;
+    top: 395vh;
+    left:100px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: "Heebo", sans-serif;
+}
+
+
 
 .AcademiaContainer blockquote{
     color: white;

@@ -4,7 +4,7 @@
   background-image: url(../../img/Backgrounds/SobreMiBackGround.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-position-y: 0px;
+  background-position-y:bottom;
   background-color: #0d0d0d;
   position: relative;
   height: 100vh;
