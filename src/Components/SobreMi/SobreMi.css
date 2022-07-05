@@ -50,42 +50,42 @@
 .img1{
   background-image: url(../../img/Slider/100%/1.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
 .img4{
   background-image: url(../../img/Slider/100%/4.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
 .img2{
   background-image: url(../../img/Slider/100%/2.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
 .img5{
   background-image: url(../../img/Slider/100%/5.png);
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: cover;
   background-position: center;
 }
 
 .img3{
   background-image: url(../../img/Slider/100%/3.png);
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: cover;
   background-position: center;
 }
 
 .img6{
   background-image: url(../../img/Slider/100%/6.png);
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: cover;
   background-position: center;
 }
 
