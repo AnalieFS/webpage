@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import React, { Component } from "react";
 import Sena from "../../../../img/SENA.png";
 import Udemy from "../../../../img/Udemy.png";
@@ -7,16 +6,17 @@ import SheWorks from "../../../../img/SheWorks.png";
 import Contacto from "../../../Footer/Contacto";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Scrollbar } from "swiper";
-import "./Politecnico.css";
+import "./Academia.css";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-export default class Politecnico extends Component {
+
+
+export default class Academia extends Component {
   state = {
     modulo1: false,
     modulo1Btn: "VER MÁS",
-    modulo2: false,
   };
 
   Modulo1 = () => {
@@ -230,7 +230,7 @@ export default class Politecnico extends Component {
                 La curiosidad es el motor de las buenas ideas, ¿No lo crees?...
                 la curiosidad puede impulsar muchas cualidades que son
                 fundamentales para llevarlas a cabo de la mejor forma y
-                eficientemente, entre éstas cualidades están la autonomía,
+                eficientemente, entre éstas: la autonomía,
                 proactividad, el ser autodidacta e incluso el aprender que los
                 proyectos se construyen más fácil en equipo y con
                 responsabilidades fijas.
@@ -240,7 +240,7 @@ export default class Politecnico extends Component {
                 curiosidad que siento por todo lo que me rodea y en función de
                 esto, comprendiendo en su debido momento que hubo cosas que no
                 sabía hacer y que con la debida asesoría o su estudio podía
-                aprenderlo... después de todo la programación es un área que
+                aprender... después de todo la programación es un área que
                 cubre muchos campos, desde el lógico hasta el creativo y es por
                 ello que se pueden dificultar algunas cosas en ciertos momentos.
                 <br />

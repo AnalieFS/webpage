@@ -7,7 +7,7 @@
   flex-direction: column;
   height: fit-content;
   background-color: rgb(0, 0, 0);
-  z-index: 1;
+  z-index: 15;
   overflow-y: visible;
   overflow-x: hidden;
   width: 100%;
@@ -287,14 +287,16 @@ button h3 {
 .Sena::-webkit-scrollbar,
 .Udemy::-webkit-scrollbar,
 .Politecnico::-webkit-scrollbar,
-.SheWorks::-webkit-scrollbar {
+.SheWorks::-webkit-scrollbar,
+.CompetenciasTexto::-webkit-scrollbar {
   -webkit-appearance: none;
 }
 
 .Sena::-webkit-scrollbar:vertical,
 .Udemy::-webkit-scrollbar:vertical,
 .Politecnico::-webkit-scrollbar:vertical,
-.SheWorks::-webkit-scrollbar:vertical {
+.SheWorks::-webkit-scrollbar:vertical,
+.CompetenciasTexto::-webkit-scrollbar:vertical {
   width: 8px;
 }
 
@@ -305,15 +307,18 @@ button h3 {
 .Politecnico::-webkit-scrollbar-button:increment,
 .Politecnico::-webkit-scrollbar-button,
 .SheWorks::-webkit-scrollbar-button:increment,
-.SheWorks::-webkit-scrollbar-button {
+.SheWorks::-webkit-scrollbar-button,
+.CompetenciasTexto::-webkit-scrollbar-button:increment,
+.CompetenciasTexto::-webkit-scrollbar-button {
   display: none;
 }
 
 .Sena::-webkit-scrollbar-thumb,
 .Udemy::-webkit-scrollbar-thumb,
 .Politecnico::-webkit-scrollbar-thumb,
-.SheWorks::-webkit-scrollbar-thumb {
-  background-color: #797979;
+.SheWorks::-webkit-scrollbar-thumb,
+.CompetenciasTexto::-webkit-scrollbar-thumb {
+  background-color: #333333;
   border-radius: 20px;
   border: none;
 }
@@ -321,7 +326,8 @@ button h3 {
 .Sena::-webkit-scrollbar-track,
 .Udemy::-webkit-scrollbar-track,
 .Politecnico::-webkit-scrollbar-track,
-.SheWorks::-webkit-scrollbar-track {
+.SheWorks::-webkit-scrollbar-track,
+.CompetenciasTexto::-webkit-scrollbar-track {
   border-radius: 10px;
 }
 
@@ -563,20 +569,25 @@ button h3 {
   width: fit-content;
   height: 85%;
   margin-top: 0px;
+  margin-right: 10px;
 }
 
 #video {
   margin-bottom: 10px;
   margin-right: 0px;
 }
+
 .CompetenciasTexto {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   width: 40%;
-  height: fit-content;
+  height: 70%;
+  margin-left: 10px;
   padding: 0px 20px;
   border-radius: 40px;
   background-color: rgba(0, 0, 0, 0.877);
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .CompetenciasTexto p {
