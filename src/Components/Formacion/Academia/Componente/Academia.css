@@ -643,6 +643,7 @@ button h3 {
   }
   .Modulo1Div, .Modulo2Div{
     margin-top:45px;
+    height: 80%;
     flex-direction: column;
     justify-content: flex-start;
   }
@@ -653,8 +654,17 @@ button h3 {
   .Sena, .Politecnico{
     margin-bottom: 30px;
   }
-  .Modulo1 h1, .Modulo2 h1, .Modulo3 h1{
-    left: 20vw
+  .Modulo1 h1{
+    left: 20vw;
+    top:90vh
+  }
+  .Modulo2 h1{
+    left: 20vw;
+    top:190vh
+  }
+  .Modulo3 h1{
+    left: 20vw;
+    top:290vh
   }
 
   .Modulo3Swipper{
@@ -667,7 +677,7 @@ button h3 {
     height: 200vh;
   }
   .Modulo4 h1{
-    top: 495vh;
+    top: 490vh;
     left: 20vw
   }
   .Modulo4Div{
@@ -675,8 +685,8 @@ button h3 {
     height: 200vh;
   }
   .competenciasVideos{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 80%;
   }
   #video{
     width: 90%;
