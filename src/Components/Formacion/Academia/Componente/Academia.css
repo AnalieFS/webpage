@@ -580,12 +580,11 @@ button h3 {
 .CompetenciasTexto {
   display: flex;
   align-items: flex-start;
-  width: 40%;
-  height: 70%;
+  width: 30%;
+  height: 78%;
   margin-left: 10px;
   padding: 0px 20px;
   border-radius: 40px;
-  background-color: rgba(0, 0, 0, 0.877);
   overflow-y: auto;
   overflow-x: hidden;
 }
