@@ -642,7 +642,7 @@ button h3 {
     }
   }
   .Modulo1Div, .Modulo2Div{
-    margin-top:45px;
+    margin-top:5px;
     height: 80%;
     flex-direction: column;
     justify-content: flex-start;
