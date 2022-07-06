@@ -632,7 +632,7 @@ button h3 {
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1023px) {
   @keyframes abrir {
     from {
       height: 0%;
@@ -696,6 +696,7 @@ button h3 {
   .CompetenciasTexto{
     width: 80%;
     height: 80%;
+    padding-bottom: 30vh;
   }
 
 }
