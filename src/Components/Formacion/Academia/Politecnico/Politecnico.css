@@ -1,197 +1,620 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Splash&display=swap');
-.AcademiaContainer{
-    display: flex;
-    position: absolute;
-    top:0px;
-    flex-direction: column;
-    height:fit-content;
-    background-color: rgb(0, 0, 0);
-    z-index: 1;
-    overflow-y: visible;
-    overflow-x: hidden;
-    width:100%;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Splash&display=swap");
+.AcademiaContainer {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  flex-direction: column;
+  height: fit-content;
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+  overflow-y: visible;
+  overflow-x: hidden;
+  width: 100%;
 }
 
-.Modulo1{
-    display: flex;
-    flex-direction:row;
-    background-image: url(../../../../img/AcademiaLogos/1.png);
-    background-repeat: no-repeat;
-    background-size:cover;  
-    justify-content: center;  
-    width:100%;
-    height: 100vh;
-    
+.Modulo1 {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../../../../img/AcademiaLogos/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-position-y: bottom;
 }
 
-.Modulo1 h1{
-    position: absolute;
-    top: 95vh;
-    left:100px;
-    color: #ffffff;
-    font-size: 15px;
-    font-family: "Heebo", sans-serif;
+.Modulo1Div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.Sena{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    margin-top: 110px;
-    height: 70%;
-    margin-right: 40px;
-    padding: 10px;
-    background-image: url(../../../../img/AcademiaLogos/5.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+.Modulo1 h1 {
+  position: absolute;
+  top: 95vh;
+  left: 100px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Heebo", sans-serif;
+}
+
+.Sena {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 25%;
+  height: 40%;
+  padding: 30px;
+  background-image: url(../../../../img/AcademiaLogos/5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #40403f;
+  border-radius: 45px;
+  box-shadow: 0px 0px 10px black;
+  animation: abrir 1s;
+  overflow-y: auto;
+}
+
+.SenaLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+}
+
+.Sena h1,
+.Sena h2,
+.Sena p,
+.Politecnico h1,
+.Politecnico h2,
+.Politecnico p {
+  color: white;
+  position: inherit !important;
+  animation: abrirLetras 2s;
+  text-align: left !important;
+  font-family: "Baloo Da 2", sans-serif;
+}
+
+.Sena h1,
+.Udemy h1,
+.Politecnico h1,
+.SheWorks h1 {
+  font-size: 16px;
+}
+
+.Sena h2,
+.Udemy h2,
+.Politecnico h2,
+.SheWorks h2 {
+  font-size: 14px;
+}
+
+.Sena p {
+  padding-top: 0px !important;
+  margin: 0px !important;
+}
+
+.Sena img {
+  width: 75px;
+  filter: invert(0.4) sepia(1) saturate(10%) brightness(10);
+  animation: abrirLogo 1s;
+}
+
+.Udemy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 25%;
+  height: 40%;
+  padding: 30px;
+  background-image: url(../../../../img/AcademiaLogos/6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #40403f;
+  border-radius: 45px;
+  box-shadow: 0px 0px 10px black;
+  animation: abrir 1s;
+  overflow-y: auto;
+}
+
+.UdemyLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+}
+
+.Udemy h1,
+.Udemy h2,
+.Udemy p {
+  color: white;
+  position: inherit;
+  animation: abrirLetras 2s;
+  text-align: left !important;
+  font-family: "Baloo Da 2", sans-serif;
+  margin: 0px;
+}
+
+.Modulo1 button {
+  position: absolute;
+  left: 50px;
+  top: 80vh;
+  width: 150px;
+  height: 50px;
+  border: 2px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  animation: aparecer 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+button h3 {
+  font-size: 15px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Heebo", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.Udemy img {
+  width: 140px;
+  filter: invert(0.4) sepia(1) saturate(10%) brightness(10);
+  animation: abrirLogo 1s;
+}
+
+.Modulo2 {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../../../../img/AcademiaLogos/2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.Modulo2Div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Politecnico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 25%;
+  height: 40%;
+  padding: 30px;
+  background-image: url(../../../../img/AcademiaLogos/7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #40403f;
+  border-radius: 45px;
+  box-shadow: 0px 0px 10px black;
+  animation: abrir 1s;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.PolitecnicoLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+}
+
+.Politecnico img {
+  width: 180px;
+  filter: invert(0.4) sepia(1) saturate(10%) brightness(10);
+  animation: abrirLogo 1s;
+}
+
+.Politecnico h1,
+.Politecnico h2,
+.Politecnico p {
+  color: white;
+  position: inherit !important;
+  animation: abrirLetras 2s;
+  text-align: left !important;
+  font-family: "Baloo Da 2", sans-serif;
+  margin: 0px;
+}
+
+.SheWorks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 25%;
+  height: 40%;
+  padding: 30px;
+  background-image: url(../../../../img/AcademiaLogos/8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #40403f;
+  border-radius: 45px;
+  box-shadow: 0px 0px 10px black;
+  animation: abrir 1s;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.SheWorksLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+}
+
+.SheWorks img {
+  width: 250px;
+  filter: invert(0.4) sepia(1) saturate(10%) brightness(10);
+  animation: abrirLogo 1s;
+}
+
+.SheWorks h1,
+.SheWorks h2,
+.SheWorks p {
+  color: white;
+  position: inherit !important;
+  animation: abrirLetras 2s;
+  text-align: left !important;
+  font-family: "Baloo Da 2", sans-serif;
+  margin: 0px;
+}
+
+.Sena::-webkit-scrollbar,
+.Udemy::-webkit-scrollbar,
+.Politecnico::-webkit-scrollbar,
+.SheWorks::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.Sena::-webkit-scrollbar:vertical,
+.Udemy::-webkit-scrollbar:vertical,
+.Politecnico::-webkit-scrollbar:vertical,
+.SheWorks::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+
+.Sena::-webkit-scrollbar-button:increment,
+.Sena::-webkit-scrollbar-button,
+.Udemy::-webkit-scrollbar-button:increment,
+.Udemy::-webkit-scrollbar-button,
+.Politecnico::-webkit-scrollbar-button:increment,
+.Politecnico::-webkit-scrollbar-button,
+.SheWorks::-webkit-scrollbar-button:increment,
+.SheWorks::-webkit-scrollbar-button {
+  display: none;
+}
+
+.Sena::-webkit-scrollbar-thumb,
+.Udemy::-webkit-scrollbar-thumb,
+.Politecnico::-webkit-scrollbar-thumb,
+.SheWorks::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;
+  border: none;
+}
+
+.Sena::-webkit-scrollbar-track,
+.Udemy::-webkit-scrollbar-track,
+.Politecnico::-webkit-scrollbar-track,
+.SheWorks::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.Modulo2 h1 {
+  position: absolute;
+  top: 195vh;
+  left: 100px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Heebo", sans-serif;
+}
+
+.Modulo2 button {
+  position: absolute;
+  left: 50px;
+  top: 180vh;
+  width: 150px;
+  height: 50px;
+  border: 2px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  animation: aparecer 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.Modulo3 {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../../../../img/AcademiaLogos/3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.Modulo3 h1 {
+  position: absolute;
+  top: 295vh;
+  left: 100px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Heebo", sans-serif;
+}
+
+.Modulo3Swipper {
+  width: 35vw;
+  height: 43vw;
+}
+
+.img1 {
+  background-image: url(../../../../img/Herramientas/1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+}
+
+.img2 {
+  background-image: url(../../../../img/Herramientas/2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+}
+
+.img3 {
+  background-image: url(../../../../img/Herramientas/3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+}
+
+.img4 {
+  background-image: url(../../../../img/Herramientas/4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+}
+
+.img5 {
+  background-image: url(../../../../img/Herramientas/5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+}
+
+.img6 {
+  background-image: url(../../../../img/Herramientas/6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+}
+
+.img7 {
+  background-image: url(../../../../img/Herramientas/7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+}
+
+.img8 {
+  background-image: url(../../../../img/Herramientas/8.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 80%;
+}
+
+.img9 {
+  background-image: url(../../../../img/Herramientas/9.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+}
+
+.img10 {
+    background-image: url(../../../../img/Herramientas/10.png);
     background-position: center;
-    background-color: #40403F;
-    border-radius: 45px;
-    box-shadow: 0px 0px 10px black;
-}
-
-.Sena h1, .Sena h3 , .Sena p{
-    color: white;
-    position: inherit;
-}
-
-.Sena p{
-    padding-top: 0px !important;
-    margin: 0px !important;
-}
-
-.Sena img{
-width: 75px;
-filter:brightness(10) saturate(0)
-}
-
-
-.Udemy{
-    width: 30%;
-    margin-top: 110px;
-    background-image: url(../../../../img/AcademiaLogos/6.png);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 70%;
-    padding: 10px;
-    margin-left: 40px;
-    background-color: #40403F;
-    border-radius: 45px;
-    box-shadow: 0px 0px 10px black;
-}
-
-.Udemy h1, .Udemy h3, .Udemy p{
-    color: white;
-    position: inherit;
-}
-
-.Modulo2{
-    display: flex;
-    flex-direction:row;
-    background-image: url(../../../../img/AcademiaLogos/2.png);
-    background-repeat: no-repeat;
-    background-size:cover;  
-    justify-content: center;  
-    width:100%;
-    height: 100vh;
-}
-
-.Modulo2 h1{
-    position: absolute;
-    top: 195vh;
-    left:100px;
-    color: #ffffff;
-    font-size: 15px;
-    font-family: "Heebo", sans-serif;
-}
-
-.Modulo3{
-    display: flex;
-    flex-direction:row;
-    background-image: url(../../../../img/AcademiaLogos/3.png);
-    background-repeat: no-repeat;
-    background-size:cover;  
-    justify-content: center;  
-    width:100%;
-    height: 100vh;
-}
-
-.Modulo3 h1{
-    position: absolute;
-    top: 295vh;
-    left:100px;
-    color: #ffffff;
-    font-size: 15px;
-    font-family: "Heebo", sans-serif;
-}
-
-.Modulo4{
-    display: flex;
-    flex-direction:row;
-    background-image: url(../../../../img/AcademiaLogos/4.png);
-    background-repeat: no-repeat;
-    background-size:cover;  
-    justify-content: center;  
-    width:100%;
-    height: 100vh;
-}
-
-.Modulo4 h1{
-    position: absolute;
-    top: 395vh;
-    left:100px;
-    color: #ffffff;
-    font-size: 15px;
-    font-family: "Heebo", sans-serif;
-}
-
-
-
-.AcademiaContainer blockquote{
-    color: white;
-    margin: 0px;
-}
-
-.AcademiaContainer p{
     width: 80%;
-    margin: auto;
-    padding-top: 150px;
-    color: white;
-    font-family: "Heebo", sans-serif;
-    text-align: justify;
-}
-.AcademiaContainer cite{
-    color: rgb(192, 145, 100);
-    font-family: 'Splash', sans-serif;
-    font-size: 32px;
+    height: 80%;
+    background-size: cover;
+  }
+
+  .img11 {
+    background-image: url(../../../../img/Herramientas/11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 80%;
+    background-size: cover;
+  }
+
+  .img12 {
+    background-image: url(../../../../img/Herramientas/12.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+  height: 80%;
+    background-size: cover;
+  }
+
+  .img13 {
+    background-image: url(../../../../img/Herramientas/13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 80%;
+    background-size: cover;
+  }
+
+  .img14 {
+    background-image: url(../../../../img/Herramientas/14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 80%;
+    background-size: cover;
+  }
+
+  .img15 {
+    background-image: url(../../../../img/Herramientas/15.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 80%;
+    background-size: cover;
+  }
+
+  .img16 {
+    background-image: url(../../../../img/Herramientas/16.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 80%;
+    background-size: cover;
+  }
+
+  .img17 {
+    background-image: url(../../../../img/Herramientas/17.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 80%;
+    background-size: cover;
+  }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 90px;
+  }
+
+.Modulo4 {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../../../../img/AcademiaLogos/4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
 }
 
-.MarkTwain{
+.Modulo4Div{
     display: flex;
     flex-direction: row;
-    align-items:center;
-    justify-content: center;
-    padding-top: 50px;
     width: 100%;
-    height: 20%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
-.MarkTwain img{
-    padding-top: 150px;
-    width: 75px;
-    height: 75px;
-    filter: invert(0.4) sepia(1) saturate(10%) brightness(10);
+.competenciasVideos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: fit-content;
+    height: 85%;
+    margin-top: 0px;
 }
 
-.MarkTwain p{
-    width: 50%;
-    margin: 0px;
-    padding-top: 150px;
+#video{
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+.CompetenciasTexto{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: fit-content;
+    padding: 0px 20px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+.CompetenciasTexto p{
+color: #ffffff;
+  font-size: 16px;
+  font-family: "Heebo", sans-serif;
+  text-align: justify;
+}
+
+.Modulo4 h1 {
+  position: absolute;
+  top: 395vh;
+  left: 100px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "Heebo", sans-serif;
+}
+
+@keyframes abrir {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 40%;
+  }
+}
+
+@keyframes abrirLetras {
+  from {
+    color: transparent;
+  }
+  to {
     color: white;
-    font-family: "Heebo", sans-serif;
-    text-align: justify;
+  }
+}
+
+@keyframes abrirLogo {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
