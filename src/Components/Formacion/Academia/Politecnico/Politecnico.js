@@ -136,55 +136,55 @@ export default class Politecnico extends Component {
             className="Modulo3Swipper"
           >
             <SwiperSlide>
-              <div className="img1"></div>
+              <div className="img1Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img2"></div>
+              <div className="img2Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img3"></div>
+              <div className="img3Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img4"></div>
+              <div className="img4Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img5"></div>
+              <div className="img5Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img6"></div>
+              <div className="img6Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img7"></div>
+              <div className="img7Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img8"></div>
+              <div className="img8Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img9"></div>
+              <div className="img9Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img10"></div>
+              <div className="img10Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img11"></div>
+              <div className="img11Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img12"></div>
+              <div className="img12Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img13"></div>
+              <div className="img13Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img14"></div>
+              <div className="img14Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img15"></div>
+              <div className="img15Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img16"></div>
+              <div className="img16Formacion"></div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="img17"></div>
+              <div className="img17Formacion"></div>
             </SwiperSlide>
           </Swiper>
         </div>
@@ -228,30 +228,34 @@ export default class Politecnico extends Component {
             <div className="CompetenciasTexto">
               <p>
                 La curiosidad es el motor de las buenas ideas, ¿No lo crees?...
-                la curiosidad puede impulsar muchas cualidades que son fundamentales
-                para llevarlas a cabo de la mejor forma y eficientemente, entre éstas
-                cualidades están la autonomía, proactividad, el ser autodidacta e incluso
-                el aprender que los proyectos se construyen más fácil en equipo y con
+                la curiosidad puede impulsar muchas cualidades que son
+                fundamentales para llevarlas a cabo de la mejor forma y
+                eficientemente, entre éstas cualidades están la autonomía,
+                proactividad, el ser autodidacta e incluso el aprender que los
+                proyectos se construyen más fácil en equipo y con
                 responsabilidades fijas.
-                <br/>
-                <br/>
-                Todo lo anterior lo he entendido con el tiempo gracias a la curiosidad
-                que siento por todo lo que me rodea y en función de esto, comprendiendo en
-                su debido momento que hubo cosas que no sabía hacer y que con la debida
-                asesoría o su estudio podía aprenderlo... después de todo la programación
-                es un área que cubre muchos campos, desde el lógico hasta el creativo y es por
+                <br />
+                <br />
+                Todo lo anterior lo he entendido con el tiempo gracias a la
+                curiosidad que siento por todo lo que me rodea y en función de
+                esto, comprendiendo en su debido momento que hubo cosas que no
+                sabía hacer y que con la debida asesoría o su estudio podía
+                aprenderlo... después de todo la programación es un área que
+                cubre muchos campos, desde el lógico hasta el creativo y es por
                 ello que se pueden dificultar algunas cosas en ciertos momentos.
-                <br/>
-                <br/>
-                El informarme constantemente sobre las novedades que ofrece la ciencia y la tecnología
-                me hizo desarrollar un profundo entendimiento de que a diario se desarrollan
-                nuevos conocimientos y se descubren diferentes maneras de hacer las cosas, ésto me
-                convirtió en una persona humilde... humilde con el conocimiento, con lo que sé 
-                y con lo que no sé, me hizo generar consciencia sobre lo grande que es el mundo
-                y lo constructivos que podemos ser si direccionamos de manera adecuada nuestros
-                saberes y tratamos de manera consecuente a las personas, con la disposición de enseñarles
-                pero también de aprender de ellas.
-
+                <br />
+                <br />
+                El informarme constantemente sobre las novedades que ofrece la
+                ciencia y la tecnología me hizo desarrollar un profundo
+                entendimiento de que a diario se desarrollan nuevos
+                conocimientos y se descubren diferentes maneras de hacer las
+                cosas, ésto me convirtió en una persona humilde... humilde con
+                el conocimiento, con lo que sé y con lo que no sé, me hizo
+                generar consciencia sobre lo grande que es el mundo y lo
+                constructivos que podemos ser si direccionamos de manera
+                adecuada nuestros saberes y tratamos de manera consecuente a las
+                personas, con la disposición de enseñarles pero también de
+                aprender de ellas.
               </p>
             </div>
           </div>

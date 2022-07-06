@@ -46,47 +46,47 @@
 .img4,
 .img5,
 .img6 {
-  height: 100%;
-  width: 100%;
+  height: 100% !important;
+  width: 100% !important;
 }
 
-.img1Slider {
-  background-image: url(../../img/Slider/100%/1.png);
+.img1 {
+  background-image: url(../../img/Slider/100%/1.png) !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.img4Slider {
-  background-image: url(../../img/Slider/100%/4.png);
+.img4 {
+  background-image: url(../../img/Slider/100%/4.png)!important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.img2Slider {
-  background-image: url(../../img/Slider/100%/2.png);
+.img2 {
+  background-image: url(../../img/Slider/100%/2.png)!important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.img5Slider {
-  background-image: url(../../img/Slider/100%/5.png);
+.img5 {
+  background-image: url(../../img/Slider/100%/5.png)!important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.img3Slider {
-  background-image: url(../../img/Slider/100%/3.png);
+.img3 {
+  background-image: url(../../img/Slider/100%/3.png)!important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.img6Slider {
-  background-image: url(../../img/Slider/100%/6.png);
+.img6 {
+  background-image: url(../../img/Slider/100%/6.png)!important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
