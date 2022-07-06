@@ -192,7 +192,7 @@
     width: 90%;
     height: 60vh;
     margin-left: 0px;
-    overflow-y: hidden;
+    overflow-y:auto;
   }
 
   .ExperienciaModulo1 h1 {
