@@ -155,7 +155,7 @@ export default class Experiencia extends Component {
                 Finalmente todo lo anterior se ve reflejado en el frontend
                 desarrollado en React JS permitiendo visualizar la ubicación en
                 tiempo real del vehículo en el mapa que hace uso de la API de
-                Google Maps, mostrando hora de último reporte y detalles del
+                Google Maps, mostrando hora de último reporte, detalles del
                 vehículo y actualizando el heading del marcador.
                 <br />
                 <br />
@@ -181,12 +181,17 @@ export default class Experiencia extends Component {
                 <br />
                 Es una verdadera lástima que todos los demás proyectos tengan un
                 grado de confidencialidad que me impide mostrar su código, sin
-                embargo,
+                embargo, ¡los repositorios de esta webpage sí te los puedo compartir!
+                <br />
+                <br />
                 <i><a href="https://github.com/AnalieFS/webpage" rel="noreferrer" target="_blank">
-                  ¡éste repo sí te lo puedo compartir!
+                  Webpage FrontEnd
                 </a>
                 </i>
-                <br />
+                <i><a href="https://github.com/AnalieFS/webpagebackendcode" rel="noreferrer" target="_blank">
+                  Webpage BackEnd
+                </a>
+                </i>
                 <br />
                 ¡Espero que tu estadía en ésta página web haya sido de tu agrado!.
                </p>
