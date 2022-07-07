@@ -611,10 +611,11 @@ button h3 {
     justify-content: flex-start;
   }
   .Sena, .Udemy, .Politecnico, .SheWorks{
-    width: 70%;
+    width: 90%;
     height: 30%;
+    border-radius: 0px;
   }
-  .Sena, .Politecnico{
+  .Sena, .Politecnico, .Udemy{
     margin-bottom: 30px;
   }
   .Modulo1 h1{

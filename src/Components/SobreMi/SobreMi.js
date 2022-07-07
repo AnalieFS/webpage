@@ -28,6 +28,9 @@ export default class SobreMi extends Component {
           className="mySwiper1"
         >
           <SwiperSlide>
+            <div className="img0"></div>
+          </SwiperSlide>
+          <SwiperSlide>
             <div className="img1"></div>
           </SwiperSlide>
           <SwiperSlide>
