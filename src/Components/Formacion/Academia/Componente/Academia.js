@@ -4,6 +4,7 @@ import Udemy from "../../../../img/Udemy.png";
 import Poli from "../../../../img/Politecnico.png";
 import SheWorks from "../../../../img/SheWorks.png";
 import Contacto from "../../../Footer/Contacto";
+import back from '../../../../img/social/back.svg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Pagination, Scrollbar } from "swiper";
 import "./Academia.css";
@@ -26,9 +27,20 @@ export default class Academia extends Component {
     }
   };
 
+  home = () => {
+    window.location.href = "/";
+ }
+
   render() {
     return (
       <div className="AcademiaContainer">
+        <div className="NavAcademia">
+        <a id="aNavAcademia" href="/">
+            <h1>Analie Flórez Sánchez</h1>
+            <h2>Desarrollo Full Stack</h2>           
+          </a>
+          <img src={back} alt="Go back" onClick={this.home}></img>
+        </div>
         <div className="Modulo1">
           <h1>
             <i>Formación académica</i>

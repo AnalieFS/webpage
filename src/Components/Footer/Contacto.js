@@ -76,14 +76,14 @@ export default class Contacto extends Component {
               <input required type="checkbox"></input>
               <label id="terminos">
                 Acepto los términos y condiciones que puedo encontrar en las
-                políticas de privacidad que puedo encontrar al final de esta página.
+                políticas de privacidad.
               </label>
             </div>
           </form>
         </div>
         <div className="menuFooter">
           <div className="tel">
-            <a  href="https://wa.link/dohv2i"
+            <a href="https://wa.link/dohv2i"
               target="_blank">
             <img src={wp} alt="WhatsApp Icon"/>
             <h1>Escríbame</h1>

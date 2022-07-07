@@ -13,6 +13,56 @@
   width: 100%;
 }
 
+.NavAcademia{
+  z-index: 10;
+  display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0px;
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(5px);
+    align-items: center;
+}
+
+.NavAcademia img{
+  margin-left: 80vw;
+  filter: brightness(3) saturate(0);
+  cursor: pointer;
+}
+
+#aNavAcademia {
+  
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  text-decoration: none;
+  width: 400px;
+}
+
+#aNavAcademia h1 {
+  font-family: 'Allerta', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 0px;
+  margin-left: 50px;
+  padding-top: 17px;
+  color: white;
+  font-weight: 500;
+}
+
+#aNavAcademia h2 {
+  margin: 0px;
+  margin-left: 50px;
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 16px;
+  letter-spacing: 4px;
+  color: white;
+  font-weight: 100;
+  padding-bottom: 10px;
+}
+
 .Modulo1 {
   display: flex;
   flex-direction: row;
@@ -56,7 +106,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: #40403f;
-  border-radius: 45px;
   box-shadow: 0px 0px 10px black;
   animation: abrir 1s;
   overflow-y: auto;
@@ -121,7 +170,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: #40403f;
-  border-radius: 45px;
   box-shadow: 0px 0px 10px black;
   animation: abrir 1s;
   overflow-y: auto;
@@ -189,7 +237,6 @@ button h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #40403f;
-  border-radius: 45px;
   box-shadow: 0px 0px 10px black;
   animation: abrir 1s;
   overflow-y: auto;
@@ -234,7 +281,6 @@ button h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #40403f;
-  border-radius: 45px;
   box-shadow: 0px 0px 10px black;
   animation: abrir 1s;
   overflow-y: auto;
@@ -316,7 +362,7 @@ button h3 {
 .Modulo3 {
   display: flex;
   flex-direction: row;
-  background-image: url(../../../../img/AcademiaLogos/3.png);
+  background-image: url(../../../../img/AcademiaLogos/2.png);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
@@ -502,7 +548,7 @@ button h3 {
 .Modulo4 {
   display: flex;
   flex-direction: row;
-  background-image: url(../../../../img/AcademiaLogos/4.png);
+  background-image: url(../../../../img/AcademiaLogos/3.png);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
@@ -601,7 +647,8 @@ button h3 {
     }
   }
   .Modulo1{
-    height: 200vh;
+    margin-top: 70px;
+    height: 210vh;
     background-image: url(../../../../img/AcademiaLogos/10.png);
   }
   .Modulo1Div, .Modulo2Div{
@@ -620,15 +667,15 @@ button h3 {
   }
   .Modulo1 h1{
     left: 20vw;
-    top:193vh
+    top: 211vh
   }
   .Modulo3 h1{
     left: 20vw;
-    top:293vh
+    top:311vh
   }
 
   .Modulo1 button{
-    top:180vh;
+    top:195vh;
   }
 
   .Modulo3Swipper{
@@ -641,7 +688,7 @@ button h3 {
     height: 200vh;
   }
   .Modulo4 h1{
-    top: 493vh;
+    top: 511vh;
     left: 20vw
   }
   .Modulo4Div{

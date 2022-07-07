@@ -111,6 +111,9 @@
     align-items: center;
     justify-content: center;
 }
+.tel a{
+    align-items: center;
+}
 
 .tel img{
     width: 30px;

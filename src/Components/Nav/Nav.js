@@ -18,9 +18,28 @@ export default class Nav extends Component {
   };
 
   scroll = (y) => {
-     window.scroll(0, y);    
-     this.setState({ toggleMenu: !this.state.toggleMenu });
-    };
+    var scroll;
+    
+    if (this.state.screenWidth < 1024) {
+      if (y === 0) {
+        window.scroll(0, 0);
+      } else if (y === 1) {
+        window.location.href = "/Formacion";
+      } else {
+        scroll = 3.7 * this.state.screenHeight;
+        window.scroll(scroll, scroll);
+      }
+    } else {
+      if (y === 0) {
+        window.scroll(0, 0);
+      } else if (y === 1) {
+        window.location.href = "/Formacion";
+      } else {
+        scroll = this.state.screenHeight + this.state.screenHeight * 0.5;
+        window.scroll(scroll, scroll);
+      }
+    }
+  };
 
   render() {
     return (
@@ -43,17 +62,14 @@ export default class Nav extends Component {
           </button>
           {(this.state.screenWidth > 1060 || this.state.toggleMenu) && (
             <ul className="icons">
-              <div
-                className="iconsDiv"
-                onClick={() => this.scroll(0)}
-              >
+              <div className="iconsDiv" onClick={() => this.scroll(0)}>
                 <li className="ListNav">
                   <h1>Sobre Mí</h1>
                 </li>
               </div>
               <div
                 className="iconsDiv"
-                onClick={() => this.scroll(this.state.screenHeight)}
+                onClick={() => this.scroll(1)}
               >
                 <li className="ListNav">
                   <h1>Formación</h1>
@@ -61,23 +77,7 @@ export default class Nav extends Component {
               </div>
               <div
                 className="iconsDiv"
-                onClick={() => this.scroll(this.state.screenHeight * 2)}
-              >
-                <li className="ListNav">
-                  <h1>Lenguajes</h1>
-                </li>
-              </div>
-              <div
-                className="iconsDiv"
-                onClick={() => this.scroll(this.state.screenHeight * 3)}
-              >
-                <li className="ListNav">
-                  <h1>Competencias</h1>
-                </li>
-              </div>
-              <div
-                className="iconsDiv"
-                onClick={() => this.scroll(this.state.screenHeight * 4)}
+                onClick={() => this.scroll(2)}
               >
                 <li className="ListNav">
                   <h1>Experiencia</h1>

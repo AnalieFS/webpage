@@ -13,10 +13,15 @@ export default class Privacidad extends Component {
     
 return(
     <div className="privacidadContainer">
-        
-        <h1 className="titlePrivacy">Política de privacidad<button className="back" onClick={this.home}>
-            <img src={back} alt="Go back"></img>
-        </button></h1>
+      <div className="SubNav" >
+          <a id="aNavPrivacidad" href="/">
+            <h1>Analie Flórez Sánchez</h1>
+            <h2>Desarrollo Full Stack</h2>           
+          </a>
+          <img src={back} alt="Go back" onClick={this.home}></img>
+      </div>
+        <div className="textPrivacidad">
+        <h1 className="titlePrivacy">Política de privacidad</h1>
         <p>Última actualización: 15 de junio de 2022</p>
         <p>
         Esta Política de privacidad describe Nuestras políticas y procedimientos sobre la recopilación, el uso y la divulgación de Su información cuando utiliza el Servicio y le informa sobre Sus derechos de privacidad y cómo la ley lo protege.
@@ -26,6 +31,7 @@ return(
           <a
             href="https://www.privacypolicies.com/privacy-policy-generator/"
             target="_blank"
+            rel="noreferrer"
           >
             Generador de Políticas de Privacidad 
           </a>
@@ -86,11 +92,11 @@ return(
           </li>
           <li>
             <p>
-              <strong>El sitio web</strong> se refiere a CVAFS, accesible desde {" "}
+              <strong>El sitio web</strong> se refiere a Analie FS, accesible desde {" "}
               <a
                 href="https://analieflorezscv.herokuapp.com/"
-                rel="external nofollow noopener"
                 target="_blank"
+                rel="noreferrer"
               >
                 https://analieflorezscv.herokuapp.com/
               </a>
@@ -139,7 +145,7 @@ return(
             <strong>Flash Cookies.</strong> Ciertas funciones de nuestro Servicio pueden usar objetos almacenados localmente (o Flash Cookies) para recopilar y almacenar información sobre Sus preferencias o Su actividad en nuestro Servicio. Las cookies de Flash no se gestionan con la misma configuración del navegador que las utilizadas para las cookies del navegador. Para obtener más información sobre cómo puede eliminar las cookies de Flash, lea "¿Dónde puedo cambiar la configuración para deshabilitar o eliminar objetos locales compartidos?" disponible en{" "} 
             <a
               href="https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_"
-              rel="external nofollow noopener"
+              rel="noreferrer"
               target="_blank"
             >
                https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_
@@ -154,6 +160,7 @@ return(
           <a
             href="https://www.privacypolicies.com/blog/privacy-policy-template/#Use_Of_Cookies_Log_Files_And_Tracking"
             target="_blank"
+            rel="noreferrer"
           >
             Políticas de privacidad del sitio web.
           </a>{" "}
@@ -341,6 +348,7 @@ return(
             <p>Por número de teléfono: +573004452451</p>
           </li>
         </ul>
+        </div>
       </div>
 )
 }

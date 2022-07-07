@@ -47,6 +47,7 @@
     font-size: 18px;
     letter-spacing: 1px;
     margin: 0px;
+    margin-left: 50px;
     padding-top: 17px;
     color: white;
     font-weight: 500;
@@ -54,6 +55,7 @@
 
 #aNav h2 {
     margin: 0px;
+    margin-left: 50px;
     font-family: 'Baloo Da 2', cursive;
     font-size: 16px;
     letter-spacing: 4px;
@@ -146,8 +148,7 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
-
+@media screen and (max-width: 1023px) {
 
     #btnNavBar {
         display: flex;
@@ -160,6 +161,7 @@
 
     .iconsDiv {
         float: right;
+        cursor: pointer;
     }
 
     .ListNav h1 {
@@ -185,6 +187,7 @@
     .icons {
         background-color: rgb(43, 43, 43);
         height: 100vh;
+        width: 40vw;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -192,6 +195,7 @@
         padding-left: 50px;
         animation: appear 1s;
         transition-duration: 1s;
+        cursor: auto;
     }
 
     .ListNav h1 {
