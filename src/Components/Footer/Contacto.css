@@ -250,9 +250,21 @@ a{
         flex-direction: column;
         align-items: center;
     }
+
+    .tel, .email{
+        width: 80%;
+    }
+
+    .email h1, .email h2 {
+        font-size: 12px;
+    }
+
     .line{
         transform: rotate(0deg);
         margin: 5px 0px;
         width: 80vw;
+    }
+    .form input[type=checkbox] {
+        width: 50px;
     }
 }
