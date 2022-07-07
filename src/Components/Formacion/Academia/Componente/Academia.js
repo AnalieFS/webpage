@@ -11,12 +11,10 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-
-
 export default class Academia extends Component {
   state = {
-    modulo1: false,
-    modulo1Btn: "VER MÁS",
+    modulo1: true,
+    modulo1Btn: "VER MENOS",
   };
 
   Modulo1 = () => {
@@ -68,18 +66,6 @@ export default class Academia extends Component {
                   </p>
                 </div>
               </div>
-            </div>
-          )}
-          <button onClick={this.Modulo1}>
-            <h3>{this.state.modulo1Btn}</h3>
-          </button>
-        </div>
-        <div className="Modulo2">
-          <h1>
-            <i>Formación académica</i>
-          </h1>
-          {this.state.modulo1 && (
-            <div className="Modulo2Div">
               <div className="Politecnico">
                 <div className="PolitecnicoLogo">
                   <img src={Poli} alt="Politécnico Logo" />
@@ -230,19 +216,18 @@ export default class Academia extends Component {
                 La curiosidad es el motor de las buenas ideas, ¿No lo crees?...
                 la curiosidad puede impulsar muchas cualidades que son
                 fundamentales para llevarlas a cabo de la mejor forma y
-                eficientemente, entre éstas: la autonomía,
-                proactividad, el ser autodidacta e incluso el aprender que los
-                proyectos se construyen más fácil en equipo y con
-                responsabilidades fijas.
+                eficientemente, entre éstas: la autonomía, proactividad, el ser
+                autodidacta e incluso el aprender que los proyectos se
+                construyen más fácil en equipo y con responsabilidades fijas.
                 <br />
                 <br />
                 Todo lo anterior lo he entendido con el tiempo gracias a la
                 curiosidad que siento por todo lo que me rodea y en función de
                 esto, comprendiendo en su debido momento que hubo cosas que no
                 sabía hacer y que con la debida asesoría o su estudio podía
-                aprender... después de todo la programación es un área que
-                cubre muchos campos, desde el lógico hasta el creativo y es por
-                ello que se pueden dificultar algunas cosas en ciertos momentos.
+                aprender... después de todo la programación es un área que cubre
+                muchos campos, desde el lógico hasta el creativo y es por ello
+                que se pueden dificultar algunas cosas en ciertos momentos.
                 <br />
                 <br />
                 El informarme constantemente sobre las novedades que ofrece la
