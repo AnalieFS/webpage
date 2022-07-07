@@ -186,12 +186,14 @@
     margin-left: 0px;
     width: 80%;
     border-radius: 10px;
+    padding: 20px 0px 0px 0px;
   }
 
   .experiencia {
     width: 90%;
     height: 60vh;
     margin-left: 0px;
+    margin-bottom: 50px;
     overflow-y:auto;
   }
 
@@ -204,7 +206,7 @@
   .ExperienciaModulo2{
     width: 80%;
     margin: 0px;
-    height: 100vh;
+    height: fit-content;
     margin-top: 120px;
   }
 
@@ -228,5 +230,9 @@
 
   .buttonsExperiencia button{
     width: 250px;
+  }
+  
+  .ExperienciaModulo1 img{
+    padding-bottom: 20px;
   }
 }
