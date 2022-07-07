@@ -18,7 +18,7 @@ function App() {
       <Contacto></Contacto>
       <BrowserRouter>
         <Routes>
-          <Route className="encima" path="/" element={<></>} />
+          <Route path="/" element={<></>} />
           <Route path="/Formacion" element={<Academia />} />
           <Route path="/PoliticaPrivacidad" element={<Privacidad />} />
         </Routes>
