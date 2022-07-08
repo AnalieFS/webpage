@@ -23,7 +23,6 @@
   height: fit-content;
   padding: 20px 0px 20px 20px;
   background-color: rgb(43, 43, 43);
-  border-radius: 0px 10px 10px 0px;
   animation: submenuAnimation 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -152,6 +151,15 @@
   color: #d9a87e;
 }
 
+
+@keyframes girar{
+    
+    to{
+        transform: rotate(90deg);
+    }
+}
+
+
 @media screen and (max-width: 1023px) {
   .experiencia::-webkit-scrollbar {
     -webkit-appearance: none;
@@ -184,8 +192,7 @@
   .ExperienciaModulo1 {
     margin-top: 10px;
     margin-left: 0px;
-    width: 60%;
-    border-radius: 10px;
+    width: 210px;
     padding: 20px 0px 0px 0px;
   }
 
@@ -201,6 +208,7 @@
     display: flex;
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
+    font-size: 80%;
   }
 
   .ExperienciaModulo2{
@@ -232,9 +240,14 @@
 
   .buttonsExperiencia button{
     width:80%;
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
   
   .ExperienciaModulo1 img{
-    padding-bottom: 20px;
+    animation: girar 1s;
+padding-bottom: 0px;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
   }
 }

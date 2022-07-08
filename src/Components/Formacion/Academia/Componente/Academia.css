@@ -658,10 +658,9 @@ button h3 {
     height: 210vh;
     background-image: url(../../../../img/AcademiaLogos/10.png);
   }
-  .Modulo1Div,
-  .Modulo2Div {
+  .Modulo1Div {
     margin-top: 20px;
-    height: 80%;
+    height: 90%;
     flex-direction: column;
     justify-content: flex-start;
   }
@@ -669,7 +668,7 @@ button h3 {
   .Udemy,
   .Politecnico,
   .SheWorks {
-    width: 90%;
+    width: 80%;
     height: 30%;
     border-radius: 0px;
   }
@@ -688,7 +687,8 @@ button h3 {
   }
 
   .Modulo1 button {
-    top: 195vh;
+    top: 210vh;
+    left: 70%;
   }
 
   .Modulo3Swipper {
@@ -710,7 +710,6 @@ button h3 {
   }
   .competenciasVideos {
     height: 100vh;
-    width: 80%;
   }
   #video {
     width: 90%;
@@ -718,7 +717,7 @@ button h3 {
   }
 
   .CompetenciasTexto {
-    width: 80%;
+    width: 60%;
     height: 80%;
     margin-bottom: 25vh;
   }

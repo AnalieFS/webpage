@@ -1,5 +1,4 @@
 import { Component } from "react";
-import back from '../../img/social/back.svg'
 import './Privacidad.css';
 
 
@@ -18,7 +17,6 @@ return(
             <h1>Analie Flórez Sánchez</h1>
             <h2>Desarrollo Full Stack</h2>           
           </a>
-          <img src={back} alt="Go back" onClick={this.home}></img>
       </div>
         <div className="textPrivacidad">
         <h1 className="titlePrivacy">Política de privacidad</h1>

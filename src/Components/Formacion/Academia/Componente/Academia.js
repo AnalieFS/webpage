@@ -4,13 +4,9 @@ import Udemy from "../../../../img/Udemy.png";
 import Poli from "../../../../img/Politecnico.png";
 import SheWorks from "../../../../img/SheWorks.png";
 import Contacto from "../../../Footer/Contacto";
-import back from "../../../../img/social/back.svg";
 import "./Academia.css";
 
-
-
 export default class Academia extends Component {
-  
   state = {
     modulo1: true,
     modulo1Btn: "VER MENOS",
@@ -25,9 +21,6 @@ export default class Academia extends Component {
     }
   };
 
-  home = () => {
-    window.location.href = "/";
-  };
 
   render() {
     return (
@@ -37,7 +30,6 @@ export default class Academia extends Component {
             <h1>Analie Flórez Sánchez</h1>
             <h2>Desarrollo Full Stack</h2>
           </a>
-          <img src={back} alt="Go back" onClick={this.home}></img>
         </div>
         <div className="Modulo1">
           <h1>
@@ -123,55 +115,55 @@ export default class Academia extends Component {
               <h2 id="h2Lenguajes">Básico</h2>
             </div>
             <div className="img05">
-            <h1 id="h1Lenguajes">HEIDISQL</h1>
+              <h1 id="h1Lenguajes">HEIDISQL</h1>
               <h2 id="h2Lenguajes">Intermedio</h2>
             </div>
             <div className="img06">
-            <h1 id="h1Lenguajes">HTML</h1>
+              <h1 id="h1Lenguajes">HTML</h1>
               <h2 id="h2Lenguajes">Intermedio</h2>
             </div>
             <div className="img07">
-            <h1 id="h1Lenguajes">JAVA</h1>
+              <h1 id="h1Lenguajes">JAVA</h1>
               <h2 id="h2Lenguajes">Avanzado</h2>
             </div>
             <div className="img08">
-            <h1 id="h1Lenguajes">JAVASCRIPT</h1>
+              <h1 id="h1Lenguajes">JAVASCRIPT</h1>
               <h2 id="h2Lenguajes">Intermedio</h2>
             </div>
             <div className="img10">
-            <h1 id="h1Lenguajes">MYSQL</h1>
+              <h1 id="h1Lenguajes">MYSQL</h1>
               <h2 id="h2Lenguajes">Intermedio</h2>
             </div>
             <div className="img11">
-            <h1 id="h1Lenguajes">NODEJS</h1>
+              <h1 id="h1Lenguajes">NODEJS</h1>
               <h2 id="h2Lenguajes">Intermedio</h2>
             </div>
             <div className="img12">
-            <h1 id="h1Lenguajes">POPSTGRESQL</h1>
+              <h1 id="h1Lenguajes">POSTGRESQL</h1>
               <h2 id="h2Lenguajes">Intermedio</h2>
             </div>
             <div className="img13">
-            <h1 id="h1Lenguajes">PYCHARM</h1>
+              <h1 id="h1Lenguajes">PYCHARM</h1>
               <h2 id="h2Lenguajes">Intermedio</h2>
             </div>
             <div className="img14">
-            <h1 id="h1Lenguajes">PYTHON</h1>
+              <h1 id="h1Lenguajes">PYTHON</h1>
               <h2 id="h2Lenguajes">Avanzado</h2>
             </div>
             <div className="img15">
-            <h1 id="h1Lenguajes">REACTJS</h1>
+              <h1 id="h1Lenguajes">REACTJS</h1>
               <h2 id="h2Lenguajes">Intermedio</h2>
             </div>
             <div className="img16">
-            <h1 id="h1Lenguajes">TYPESCRIPT</h1>
+              <h1 id="h1Lenguajes">TYPESCRIPT</h1>
               <h2 id="h2Lenguajes">Intermedio</h2>
             </div>
             <div className="img17">
-            <h1 id="h1Lenguajes">VSCODE</h1>
+              <h1 id="h1Lenguajes">VSCODE</h1>
               <h2 id="h2Lenguajes">Avanzado</h2>
             </div>
             <div className="img18">
-            <h1 id="h1Lenguajes">VS</h1>
+              <h1 id="h1Lenguajes">VS</h1>
               <h2 id="h2Lenguajes">Avanzado</h2>
             </div>
             <div className="img04">
@@ -179,7 +171,7 @@ export default class Academia extends Component {
               <h2 id="h2Lenguajes">Básico</h2>
             </div>
             <div className="img09">
-            <h1 id="h1Lenguajes">LINUX</h1>
+              <h1 id="h1Lenguajes">LINUX</h1>
               <h2 id="h2Lenguajes">Intermedio</h2>
             </div>
           </div>

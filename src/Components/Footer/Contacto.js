@@ -98,10 +98,7 @@ export default class Contacto extends Component {
           </div>
 
           <div className="line"></div>
-          <div className="redesSociales">
-            <a href="https://www.instagram.com" target="_blank">
-              <h2>INSTAGRAM</h2>
-            </a>
+          <div className="redesSociales">            
             <a
               href="https://www.linkedin.com/in/analie-fl%C3%B3rez-s%C3%A1nchez/"
               target="_blank"
