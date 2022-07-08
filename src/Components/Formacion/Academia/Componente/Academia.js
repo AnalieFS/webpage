@@ -4,15 +4,13 @@ import Udemy from "../../../../img/Udemy.png";
 import Poli from "../../../../img/Politecnico.png";
 import SheWorks from "../../../../img/SheWorks.png";
 import Contacto from "../../../Footer/Contacto";
-import back from '../../../../img/social/back.svg'
-import { Swiper, SwiperSlide } from "swiper/react";
-import { EffectCoverflow, Pagination, Scrollbar } from "swiper";
+import back from "../../../../img/social/back.svg";
 import "./Academia.css";
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
+
+
 
 export default class Academia extends Component {
+  
   state = {
     modulo1: true,
     modulo1Btn: "VER MENOS",
@@ -29,15 +27,15 @@ export default class Academia extends Component {
 
   home = () => {
     window.location.href = "/";
- }
+  };
 
   render() {
     return (
       <div className="AcademiaContainer">
         <div className="NavAcademia">
-        <a id="aNavAcademia" href="/">
+          <a id="aNavAcademia" href="/">
             <h1>Analie Flórez Sánchez</h1>
-            <h2>Desarrollo Full Stack</h2>           
+            <h2>Desarrollo Full Stack</h2>
           </a>
           <img src={back} alt="Go back" onClick={this.home}></img>
         </div>
@@ -115,76 +113,76 @@ export default class Academia extends Component {
           <h1>
             <i>Lenguajes y herramientas</i>
           </h1>
-          <Swiper
-            effect={"coverflow"}
-            loop={true}
-            grabCursor={true}
-            centeredSlides={true}
-            slidesPerView={"auto"}
-            coverflowEffect={{
-              rotate: 50,
-              stretch: 0,
-              depth: 1000,
-              modifier: 1,
-              slideShadows: true,
-            }}
-            scrollbar={true}
-            pagination={true}
-            modules={[EffectCoverflow, Pagination, Scrollbar]}
-            className="Modulo3Swipper"
-          >
-            <SwiperSlide>
-              <div className="img1Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img2Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img3Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img4Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img5Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img6Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img7Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img8Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img9Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img10Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img11Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img12Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img13Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img14Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img15Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img16Formacion"></div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="img17Formacion"></div>
-            </SwiperSlide>
-          </Swiper>
+          <div className="LenguajesYHerramientas">
+            <div className="img01">
+              <h1 id="h1Lenguajes">CSS</h1>
+              <h2 id="h2Lenguajes">Intermedio</h2>
+            </div>
+            <div className="img02">
+              <h1 id="h1Lenguajes">DOCKER</h1>
+              <h2 id="h2Lenguajes">Básico</h2>
+            </div>
+            <div className="img05">
+            <h1 id="h1Lenguajes">HEIDISQL</h1>
+              <h2 id="h2Lenguajes">Intermedio</h2>
+            </div>
+            <div className="img06">
+            <h1 id="h1Lenguajes">HTML</h1>
+              <h2 id="h2Lenguajes">Intermedio</h2>
+            </div>
+            <div className="img07">
+            <h1 id="h1Lenguajes">JAVA</h1>
+              <h2 id="h2Lenguajes">Avanzado</h2>
+            </div>
+            <div className="img08">
+            <h1 id="h1Lenguajes">JAVASCRIPT</h1>
+              <h2 id="h2Lenguajes">Intermedio</h2>
+            </div>
+            <div className="img10">
+            <h1 id="h1Lenguajes">MYSQL</h1>
+              <h2 id="h2Lenguajes">Intermedio</h2>
+            </div>
+            <div className="img11">
+            <h1 id="h1Lenguajes">NODEJS</h1>
+              <h2 id="h2Lenguajes">Intermedio</h2>
+            </div>
+            <div className="img12">
+            <h1 id="h1Lenguajes">POPSTGRESQL</h1>
+              <h2 id="h2Lenguajes">Intermedio</h2>
+            </div>
+            <div className="img13">
+            <h1 id="h1Lenguajes">PYCHARM</h1>
+              <h2 id="h2Lenguajes">Intermedio</h2>
+            </div>
+            <div className="img14">
+            <h1 id="h1Lenguajes">PYTHON</h1>
+              <h2 id="h2Lenguajes">Avanzado</h2>
+            </div>
+            <div className="img15">
+            <h1 id="h1Lenguajes">REACTJS</h1>
+              <h2 id="h2Lenguajes">Intermedio</h2>
+            </div>
+            <div className="img16">
+            <h1 id="h1Lenguajes">TYPESCRIPT</h1>
+              <h2 id="h2Lenguajes">Intermedio</h2>
+            </div>
+            <div className="img17">
+            <h1 id="h1Lenguajes">VSCODE</h1>
+              <h2 id="h2Lenguajes">Avanzado</h2>
+            </div>
+            <div className="img18">
+            <h1 id="h1Lenguajes">VS</h1>
+              <h2 id="h2Lenguajes">Avanzado</h2>
+            </div>
+            <div className="img04">
+              <h1 id="h1Lenguajes">GITHUB</h1>
+              <h2 id="h2Lenguajes">Básico</h2>
+            </div>
+            <div className="img09">
+            <h1 id="h1Lenguajes">LINUX</h1>
+              <h2 id="h2Lenguajes">Intermedio</h2>
+            </div>
+          </div>
         </div>
         <div className="Modulo4">
           <h1>

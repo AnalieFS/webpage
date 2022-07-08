@@ -174,14 +174,15 @@
     }
 
     #aNav {
-        width: 80%;
+        width: 100%;
     }
 
 
     #aNav h1,
     #aNav h2 {
         text-align: left;
-        padding-left: 70px;
+        padding-left: 0px;
+        margin-left: 15px;
     }
 
     .icons {
@@ -241,41 +242,3 @@
 
 }
 
-
-
-@media screen and (max-width: 500px){
-   
-    .icons{
-        padding-right: 100px;
-    }
-    #btnNavBar{
-        right: 10px;
-    }
-    #aNav h1 {
-        font-size: 16px;
-    }
-
-    #aNav h2 {
-        font-size: 12px;
-    }
-    .Name{
-        padding: 0px;
-    }
-
-    .Name h3{
-        color: rgb(92, 92, 92);
-        font-size: 10px;
-    }
-    .Name h4{
-        color: rgb(92, 92, 92);
-        font-size: 9px;
-    }
-    #AboutMe {
-        padding-left: 0px;
-        
-        bottom: 25px;
-    }
-    .btnAboutMe{
-        left:10px
-    }
-}

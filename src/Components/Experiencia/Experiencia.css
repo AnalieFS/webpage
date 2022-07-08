@@ -225,11 +225,13 @@
   }
   .buttonsExperiencia {
     z-index: 2;
-    margin-left: 50px;
+    padding-right: 0px;
+    margin-left: 0px;
+    align-items: center;
   }
 
   .buttonsExperiencia button{
-    width: 250px;
+    width:80%;
   }
   
   .ExperienciaModulo1 img{

@@ -13,27 +13,26 @@
   width: 100%;
 }
 
-.NavAcademia{
+.NavAcademia {
   z-index: 10;
   display: flex;
-    flex-direction: row;
-    position: fixed;
-    top:0px;
-    width: 100vw;
-    height: 70px;
-    background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(5px);
-    align-items: center;
+  flex-direction: row;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
+  align-items: center;
 }
 
-.NavAcademia img{
+.NavAcademia img {
   margin-left: 80vw;
   filter: brightness(3) saturate(0);
   cursor: pointer;
 }
 
 #aNavAcademia {
-  
   display: flex;
   position: fixed;
   flex-direction: column;
@@ -42,7 +41,7 @@
 }
 
 #aNavAcademia h1 {
-  font-family: 'Allerta', sans-serif;
+  font-family: "Allerta", sans-serif;
   font-size: 18px;
   letter-spacing: 1px;
   margin: 0px;
@@ -55,7 +54,7 @@
 #aNavAcademia h2 {
   margin: 0px;
   margin-left: 50px;
-  font-family: 'Baloo Da 2', cursive;
+  font-family: "Baloo Da 2", cursive;
   font-size: 16px;
   letter-spacing: 4px;
   color: white;
@@ -316,7 +315,8 @@ button h3 {
 .Udemy::-webkit-scrollbar,
 .Politecnico::-webkit-scrollbar,
 .SheWorks::-webkit-scrollbar,
-.CompetenciasTexto::-webkit-scrollbar {
+.CompetenciasTexto::-webkit-scrollbar,
+.LenguajesYHerramientas::-webkit-scrollbar {
   -webkit-appearance: none;
 }
 
@@ -324,7 +324,8 @@ button h3 {
 .Udemy::-webkit-scrollbar:vertical,
 .Politecnico::-webkit-scrollbar:vertical,
 .SheWorks::-webkit-scrollbar:vertical,
-.CompetenciasTexto::-webkit-scrollbar:vertical {
+.CompetenciasTexto::-webkit-scrollbar:vertical,
+.LenguajesYHerramientas::-webkit-scrollbar:vertical {
   width: 8px;
 }
 
@@ -337,7 +338,9 @@ button h3 {
 .SheWorks::-webkit-scrollbar-button:increment,
 .SheWorks::-webkit-scrollbar-button,
 .CompetenciasTexto::-webkit-scrollbar-button:increment,
-.CompetenciasTexto::-webkit-scrollbar-button {
+.CompetenciasTexto::-webkit-scrollbar-button,
+.LenguajesYHerramientas::-webkit-scrollbar-button:increment,
+.LenguajesYHerramientas::-webkit-scrollbar-button {
   display: none;
 }
 
@@ -345,18 +348,11 @@ button h3 {
 .Udemy::-webkit-scrollbar-thumb,
 .Politecnico::-webkit-scrollbar-thumb,
 .SheWorks::-webkit-scrollbar-thumb,
-.CompetenciasTexto::-webkit-scrollbar-thumb {
+.CompetenciasTexto::-webkit-scrollbar-thumb,
+.LenguajesYHerramientas::-webkit-scrollbar-thumb {
   background-color: #333333;
   border-radius: 20px;
   border: none;
-}
-
-.Sena::-webkit-scrollbar-track,
-.Udemy::-webkit-scrollbar-track,
-.Politecnico::-webkit-scrollbar-track,
-.SheWorks::-webkit-scrollbar-track,
-.CompetenciasTexto::-webkit-scrollbar-track {
-  border-radius: 10px;
 }
 
 .Modulo3 {
@@ -380,169 +376,176 @@ button h3 {
   font-family: "Heebo", sans-serif;
 }
 
-.Modulo3Swipper {
-  width: 35vw;
-  height: 43vw;
-}
-
-.img1Formacion {
-  background-image: url(../../../../img/Herramientas/1.png);
-  background-position: center;
-  background-repeat: no-repeat;
+.LenguajesYHerramientas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
   width: 80%;
-  height: 80%;
-  background-size: cover;
+  height: 60vh;
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
+  align-items: center;
 }
 
-.img2Formacion {
-  background-image: url(../../../../img/Herramientas/2.png);
-  background-position: center;
+.img01,
+.img02,
+.img03,
+.img04,
+.img05,
+.img06,
+.img07,
+.img08,
+.img09,
+.img10,
+.img11,
+.img12,
+.img13,
+.img14,
+.img15,
+.img16,
+.img17,
+.img18 {
+  display: flex;
   background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
-}
-
-.img3Formacion {
-  background-image: url(../../../../img/Herramientas/3.png);
+  background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  filter: saturate(0);
+  transition-duration: 1s;
+  overflow: hidden;
 }
 
-.img4Formacion {
-  background-image: url(../../../../img/Herramientas/4.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
+#h1Lenguajes {
+  display: flex;
+  justify-content: center;
+  color: white;
+  left: 0px;
+  position: absolute;
+  top: 50px;
+  font-size: 13px;
+  font-family: "Heebo", sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+#h2Lenguajes {
+  position: absolute;
+  top: 70px;
+  color: #ffeedf;
+  font-size: 12px;
+  font-family: "Heebo", sans-serif;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
-.img5Formacion {
-  background-image: url(../../../../img/Herramientas/5.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
+.img01 {
+  background-image: url(../../../../img/Herramientas/css.svg);
 }
 
-.img6Formacion {
-  background-image: url(../../../../img/Herramientas/6.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
+.img02 {
+  background-image: url(../../../../img/Herramientas/docker.svg);
+}
+.img03 {
+  background-image: url(../../../../img/Herramientas/git.svg);
+}
+.img04 {
+  background-image: url(../../../../img/Herramientas/github.svg);
+  filter: invert(2) saturate(0);
+}
+.img05 {
+  background-image: url(../../../../img/Herramientas/HeidiSQL.png);
+}
+.img06 {
+  background-image: url(../../../../img/Herramientas/html.svg);
+}
+.img07 {
+  background-image: url(../../../../img/Herramientas/java.svg);
+  filter: brightness(2) saturate(0);
+}
+.img08 {
+  background-image: url(../../../../img/Herramientas/javascript.svg);
+}
+.img09 {
+  background-image: url(../../../../img/Herramientas/linux.svg);
+  filter: invert(2) saturate(0);
+}
+.img10 {
+  background-image: url(../../../../img/Herramientas/mysql.svg);
+  filter: brightness(2) saturate(0);
+}
+.img11 {
+  background-image: url(../../../../img/Herramientas/nodejs.svg);
+}
+.img12 {
+  background-image: url(../../../../img/Herramientas/postgresql.svg);
+}
+.img13 {
+  background-image: url(../../../../img/Herramientas/pycharm.svg);
+}
+.img14 {
+  background-image: url(../../../../img/Herramientas/python.svg);
+}
+.img15 {
+  background-image: url(../../../../img/Herramientas/react.svg);
+}
+.img16 {
+  background-image: url(../../../../img/Herramientas/typescript.svg);
+  filter: brightness(2) saturate(0);
+}
+.img17 {
+  background-image: url(../../../../img/Herramientas/visual-studio-code.svg);
+}
+.img18 {
+  background-image: url(../../../../img/Herramientas/visual.svg);
 }
 
-.img7Formacion {
-  background-image: url(../../../../img/Herramientas/7.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
+.img01:hover,
+.img01:focus,
+.img02:hover,
+.img02:focus,
+.img03:hover,
+.img03:focus,
+.img05:hover,
+.img05:focus,
+.img06:hover,
+.img06:focus,
+.img07:hover,
+.img07:focus,
+.img08:hover,
+.img08:focus,
+.img10:hover,
+.img10:focus,
+.img11:hover,
+.img11:focus,
+.img12:hover,
+.img12:focus,
+.img13:hover,
+.img13:focus,
+.img14:hover,
+.img14:focus,
+.img15:hover,
+.img15:focus,
+.img16:hover,
+.img16:focus,
+.img17:hover,
+.img17:focus,
+.img18:hover,
+.img18:focus {
+  filter: saturate(1);
+  overflow: visible;
 }
 
-.img8Formacion {
-  background-image: url(../../../../img/Herramientas/8.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-}
-
-.img9Formacion {
-  background-image: url(../../../../img/Herramientas/9.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
-}
-
-.img10Formacion {
-  background-image: url(../../../../img/Herramientas/10.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
-}
-
-.img11Formacion {
-  background-image: url(../../../../img/Herramientas/11.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
-}
-
-.img12Formacion {
-  background-image: url(../../../../img/Herramientas/12.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
-}
-
-.img13Formacion {
-  background-image: url(../../../../img/Herramientas/13.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
-}
-
-.img14Formacion {
-  background-image: url(../../../../img/Herramientas/14.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
-}
-
-.img15Formacion {
-  background-image: url(../../../../img/Herramientas/15.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
-}
-
-.img16Formacion {
-  background-image: url(../../../../img/Herramientas/16.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
-}
-
-.img17Formacion {
-  background-image: url(../../../../img/Herramientas/17.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 80%;
-  height: 80%;
-  background-size: cover;
-}
-
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-  bottom: 90px;
+.img04:hover,
+.img04:focus,
+.img09:hover,
+.img09:focus {
+  filter: hue-rotate(300deg) invert();
+  overflow: visible;
 }
 
 .Modulo4 {
@@ -646,68 +649,98 @@ button h3 {
       height: 30%;
     }
   }
-  .Modulo1{
+  .LenguajesYHerramientas {
+    overflow: auto;
+  }
+
+  .Modulo1 {
     margin-top: 70px;
     height: 210vh;
     background-image: url(../../../../img/AcademiaLogos/10.png);
   }
-  .Modulo1Div, .Modulo2Div{
-    margin-top:20px;
+  .Modulo1Div,
+  .Modulo2Div {
+    margin-top: 20px;
     height: 80%;
     flex-direction: column;
     justify-content: flex-start;
   }
-  .Sena, .Udemy, .Politecnico, .SheWorks{
+  .Sena,
+  .Udemy,
+  .Politecnico,
+  .SheWorks {
     width: 90%;
     height: 30%;
     border-radius: 0px;
   }
-  .Sena, .Politecnico, .Udemy{
+  .Sena,
+  .Politecnico,
+  .Udemy {
     margin-bottom: 30px;
   }
-  .Modulo1 h1{
+  .Modulo1 h1 {
     left: 20vw;
-    top: 211vh
+    top: 211vh;
   }
-  .Modulo3 h1{
+  .Modulo3 h1 {
     left: 20vw;
-    top:311vh
+    top: 311vh;
   }
 
-  .Modulo1 button{
-    top:195vh;
+  .Modulo1 button {
+    top: 195vh;
   }
 
-  .Modulo3Swipper{
+  .Modulo3Swipper {
     width: 80%;
     height: 80%;
   }
 
-  .Modulo4{
+  .Modulo4 {
     background-image: url(../../../../img/AcademiaLogos/9.png);
     height: 200vh;
   }
-  .Modulo4 h1{
+  .Modulo4 h1 {
     top: 511vh;
-    left: 20vw
+    left: 20vw;
   }
-  .Modulo4Div{
+  .Modulo4Div {
     flex-direction: column;
     height: 200vh;
   }
-  .competenciasVideos{
+  .competenciasVideos {
     height: 100vh;
     width: 80%;
   }
-  #video{
+  #video {
     width: 90%;
     height: 30%;
   }
 
-  .CompetenciasTexto{
+  .CompetenciasTexto {
     width: 80%;
     height: 80%;
     margin-bottom: 25vh;
   }
 
+  .img01,
+  .img02,
+  .img03,
+  .img04,
+  .img05,
+  .img06,
+  .img07,
+  .img08,
+  .img09,
+  .img10,
+  .img11,
+  .img12,
+  .img13,
+  .img14,
+  .img15,
+  .img16,
+  .img17,
+  .img18 {
+    margin: 40px;
+  }
 }

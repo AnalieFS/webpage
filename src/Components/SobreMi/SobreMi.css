@@ -40,7 +40,6 @@
   overflow: hidden !important;
 }
 
-.img0,
 .img1,
 .img2,
 .img3,
@@ -51,12 +50,6 @@
   width: 100% !important;
 }
 
-.img0 {
-  background-image: url(../../img/Slider/100%/0.png) !important;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
 
 .img1 {
   background-image: url(../../img/Slider/100%/1.png) !important;
